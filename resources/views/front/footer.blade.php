@@ -8,13 +8,12 @@
                 <div class="col-12">
                    <div class="footer-contact text-center">
                       <div class="footer-contact-text">
-                         <h2 class="footer-contact-title bdFadeUp">If you'd like to <a class="mark-text"
-                               href="contact.html">talk to us</a>
-                            about a project,
-                            we would love to hear from you.</h2>
+                         <h2 class="footer-contact-title bdFadeUp"> Ready to work on something amazing with us?<br> <a class="mark-text"
+                               href="{{url('/')}}/contact-us">talk to us</a>
+                            Today! We would love to hear from you.</h2>
                       </div>
                       <div class="footer-logo-wrapper">
-                         <a href="index.html" class="fm-footer-logo">
+                         <a href="{{url('/')}}" class="fm-footer-logo">
                             <img src="{{asset('theme/assets/img/logo/logo.png')}}" alt="img not found">
                          </a>
                       </div>
@@ -23,18 +22,22 @@
              </div>
           </div>
        </div>
+
+
+
        <div class="footer-bottom">
           <div class="container">
              <div class="footer-bottom-wrapper">
                 <div class="footer-bottom-inner">
                    <div class="footer-copyright ">
-                      <p>© 2023<a href="index.html"> Faime </a> All Rights Reserved.</p>
+                      <p>© {{date('Y')}}<a href="{{url('/')}}"> ShemaQ Productions Limited </a> All Rights Reserved.</p>
                    </div>
 
 
                    <div class="footer-rules ">
                       <a href="#">Privacy Policy</a>
                       <a href="#">Terms & Condition</a>
+                      <a href="#">Copyright Statement</a>
                    </div>
                    <div class="footer-social ">
                       <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
