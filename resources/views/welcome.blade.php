@@ -1,140 +1,1164 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!doctype html>
+<html class="no-js" lang="zxx">
 
-        <title>Laravel</title>
 
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="x-ua-compatible" content="ie=edge">
+   <title>Shemaq Productions Limited – Movie and Film Production</title>
+   <meta name="description" content="">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- Place favicon.ico in the root directory -->
+   <link rel="shortcut icon" type="image/x-icon" href="{{asset('theme/assets/img/favicon.png')}}">
+   <!-- CSS here -->
+   <link rel="stylesheet" href="{{asset('theme/assets/css/preloader.css')}}">
+   <link rel="stylesheet" href="{{asset('theme/assets/css/bootstrap.min.css')}}">
+   <link rel="stylesheet" href="{{asset('theme/assets/css/meanmenu.css')}}">
+   <link rel="stylesheet" href="{{asset('theme/assets/css/animate.min.css')}}">
+   <link rel="stylesheet" href="{{asset('theme/assets/css/swiper-bundle.css')}}">
+   <link rel="stylesheet" href="{{asset('theme/assets/css/slick.css')}}">
+   <link rel="stylesheet" href="{{asset('theme/assets/css/magnific-popup.css')}}">
+   <link rel="stylesheet" href="{{asset('theme/assets/css/nice-select.css')}}">
+   <link rel="stylesheet" href="{{asset('theme/assets/css/ui-range-slider.css')}}">
+   <link rel="stylesheet" href="{{asset('theme/assets/css/flaticon_faime.css')}}">
+   <link rel="stylesheet" href="{{asset('theme/assets/css/all.min.css')}}">
+   <link rel="stylesheet" href="{{asset('theme/assets/css/default.css')}}">
+   <link rel="stylesheet" href="{{asset('theme/assets/css/style.css')}}">
+</head>
 
-        <!-- Styles -->
-        <style>
-            /* ! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:Figtree, sans-serif;font-feature-settings:normal}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]{display:none}*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::-webkit-backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.relative{position:relative}.mx-auto{margin-left:auto;margin-right:auto}.mx-6{margin-left:1.5rem;margin-right:1.5rem}.ml-4{margin-left:1rem}.mt-16{margin-top:4rem}.mt-6{margin-top:1.5rem}.mt-4{margin-top:1rem}.-mt-px{margin-top:-1px}.mr-1{margin-right:0.25rem}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.h-16{height:4rem}.h-7{height:1.75rem}.h-6{height:1.5rem}.h-5{height:1.25rem}.min-h-screen{min-height:100vh}.w-auto{width:auto}.w-16{width:4rem}.w-7{width:1.75rem}.w-6{width:1.5rem}.w-5{width:1.25rem}.max-w-7xl{max-width:80rem}.shrink-0{flex-shrink:0}.scale-100{--tw-scale-x:1;--tw-scale-y:1;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.items-center{align-items:center}.justify-center{justify-content:center}.gap-6{gap:1.5rem}.gap-4{gap:1rem}.self-center{align-self:center}.rounded-lg{border-radius:0.5rem}.rounded-full{border-radius:9999px}.bg-gray-100{--tw-bg-opacity:1;background-color:rgb(243 244 246 / var(--tw-bg-opacity))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity))}.bg-red-50{--tw-bg-opacity:1;background-color:rgb(254 242 242 / var(--tw-bg-opacity))}.bg-dots-darker{background-image:url("data:image/svg+xml,%3Csvg width='30' height='30' viewBox='0 0 30 30' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.22676 0C1.91374 0 2.45351 0.539773 2.45351 1.22676C2.45351 1.91374 1.91374 2.45351 1.22676 2.45351C0.539773 2.45351 0 1.91374 0 1.22676C0 0.539773 0.539773 0 1.22676 0Z' fill='rgba(0,0,0,0.07)'/%3E%3C/svg%3E")}.from-gray-700\/50{--tw-gradient-from:rgb(55 65 81 / 0.5);--tw-gradient-to:rgb(55 65 81 / 0);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-transparent{--tw-gradient-to:rgb(0 0 0 / 0);--tw-gradient-stops:var(--tw-gradient-from), transparent, var(--tw-gradient-to)}.bg-center{background-position:center}.stroke-red-500{stroke:#ef4444}.stroke-gray-400{stroke:#9ca3af}.p-6{padding:1.5rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.text-center{text-align:center}.text-right{text-align:right}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.font-semibold{font-weight:600}.leading-relaxed{line-height:1.625}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99 / var(--tw-text-opacity))}.text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39 / var(--tw-text-opacity))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128 / var(--tw-text-opacity))}.underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-gray-500\/20{--tw-shadow-color:rgb(107 114 128 / 0.2);--tw-shadow:var(--tw-shadow-colored)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.selection\:bg-red-500 *::selection{--tw-bg-opacity:1;background-color:rgb(239 68 68 / var(--tw-bg-opacity))}.selection\:text-white *::selection{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.selection\:bg-red-500::selection{--tw-bg-opacity:1;background-color:rgb(239 68 68 / var(--tw-bg-opacity))}.selection\:text-white::selection{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.hover\:text-gray-900:hover{--tw-text-opacity:1;color:rgb(17 24 39 / var(--tw-text-opacity))}.hover\:text-gray-700:hover{--tw-text-opacity:1;color:rgb(55 65 81 / var(--tw-text-opacity))}.focus\:rounded-sm:focus{border-radius:0.125rem}.focus\:outline:focus{outline-style:solid}.focus\:outline-2:focus{outline-width:2px}.focus\:outline-red-500:focus{outline-color:#ef4444}.group:hover .group-hover\:stroke-gray-600{stroke:#4b5563}.z-10{z-index: 10}@media (prefers-reduced-motion: no-preference){.motion-safe\:hover\:scale-\[1\.01\]:hover{--tw-scale-x:1.01;--tw-scale-y:1.01;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}}@media (prefers-color-scheme: dark){.dark\:bg-gray-900{--tw-bg-opacity:1;background-color:rgb(17 24 39 / var(--tw-bg-opacity))}.dark\:bg-gray-800\/50{background-color:rgb(31 41 55 / 0.5)}.dark\:bg-red-800\/20{background-color:rgb(153 27 27 / 0.2)}.dark\:bg-dots-lighter{background-image:url("data:image/svg+xml,%3Csvg width='30' height='30' viewBox='0 0 30 30' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.22676 0C1.91374 0 2.45351 0.539773 2.45351 1.22676C2.45351 1.91374 1.91374 2.45351 1.22676 2.45351C0.539773 2.45351 0 1.91374 0 1.22676C0 0.539773 0.539773 0 1.22676 0Z' fill='rgba(255,255,255,0.07)'/%3E%3C/svg%3E")}.dark\:bg-gradient-to-bl{background-image:linear-gradient(to bottom left, var(--tw-gradient-stops))}.dark\:stroke-gray-600{stroke:#4b5563}.dark\:text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity))}.dark\:text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.dark\:shadow-none{--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.dark\:ring-1{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.dark\:ring-inset{--tw-ring-inset:inset}.dark\:ring-white\/5{--tw-ring-color:rgb(255 255 255 / 0.05)}.dark\:hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.group:hover .dark\:group-hover\:stroke-gray-400{stroke:#9ca3af}}@media (min-width: 640px){.sm\:fixed{position:fixed}.sm\:top-0{top:0px}.sm\:right-0{right:0px}.sm\:ml-0{margin-left:0px}.sm\:flex{display:flex}.sm\:items-center{align-items:center}.sm\:justify-center{justify-content:center}.sm\:justify-between{justify-content:space-between}.sm\:text-left{text-align:left}.sm\:text-right{text-align:right}}@media (min-width: 768px){.md\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}}@media (min-width: 1024px){.lg\:gap-8{gap:2rem}.lg\:p-8{padding:2rem}}
-        </style>
-    </head>
-    <body class="antialiased">
-        <div class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-red-500 selection:text-white">
-            @if (Route::has('login'))
-                <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10">
-                    @auth
-                        <a href="{{ url('/home') }}" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Home</a>
-                    @else
-                        <a href="{{ route('login') }}" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Log in</a>
+<body>
 
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}" class="ml-4 font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
+   <!-- cursor animation-->
+   <div class="mouseCursor cursor-outer "></div>
+   <div class="mouseCursor cursor-inner"><span>Drag</span></div>
 
-            <div class="max-w-7xl mx-auto p-6 lg:p-8">
-                <div class="flex justify-center">
-                    <svg viewBox="0 0 62 65" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-16 w-auto bg-gray-100 dark:bg-gray-900">
-                        <path d="M61.8548 14.6253C61.8778 14.7102 61.8895 14.7978 61.8897 14.8858V28.5615C61.8898 28.737 61.8434 28.9095 61.7554 29.0614C61.6675 29.2132 61.5409 29.3392 61.3887 29.4265L49.9104 36.0351V49.1337C49.9104 49.4902 49.7209 49.8192 49.4118 49.9987L25.4519 63.7916C25.3971 63.8227 25.3372 63.8427 25.2774 63.8639C25.255 63.8714 25.2338 63.8851 25.2101 63.8913C25.0426 63.9354 24.8666 63.9354 24.6991 63.8913C24.6716 63.8838 24.6467 63.8689 24.6205 63.8589C24.5657 63.8389 24.5084 63.8215 24.456 63.7916L0.501061 49.9987C0.348882 49.9113 0.222437 49.7853 0.134469 49.6334C0.0465019 49.4816 0.000120578 49.3092 0 49.1337L0 8.10652C0 8.01678 0.0124642 7.92953 0.0348998 7.84477C0.0423783 7.8161 0.0598282 7.78993 0.0697995 7.76126C0.0884958 7.70891 0.105946 7.65531 0.133367 7.6067C0.152063 7.5743 0.179485 7.54812 0.20192 7.51821C0.230588 7.47832 0.256763 7.43719 0.290416 7.40229C0.319084 7.37362 0.356476 7.35243 0.388883 7.32751C0.425029 7.29759 0.457436 7.26518 0.498568 7.2415L12.4779 0.345059C12.6296 0.257786 12.8015 0.211853 12.9765 0.211853C13.1515 0.211853 13.3234 0.257786 13.475 0.345059L25.4531 7.2415H25.4556C25.4955 7.26643 25.5292 7.29759 25.5653 7.32626C25.5977 7.35119 25.6339 7.37362 25.6625 7.40104C25.6974 7.43719 25.7224 7.47832 25.7523 7.51821C25.7735 7.54812 25.8021 7.5743 25.8196 7.6067C25.8483 7.65656 25.8645 7.70891 25.8844 7.76126C25.8944 7.78993 25.9118 7.8161 25.9193 7.84602C25.9423 7.93096 25.954 8.01853 25.9542 8.10652V33.7317L35.9355 27.9844V14.8846C35.9355 14.7973 35.948 14.7088 35.9704 14.6253C35.9792 14.5954 35.9954 14.5692 36.0053 14.5405C36.0253 14.4882 36.0427 14.4346 36.0702 14.386C36.0888 14.3536 36.1163 14.3274 36.1375 14.2975C36.1674 14.2576 36.1923 14.2165 36.2272 14.1816C36.2559 14.1529 36.292 14.1317 36.3244 14.1068C36.3618 14.0769 36.3942 14.0445 36.4341 14.0208L48.4147 7.12434C48.5663 7.03694 48.7383 6.99094 48.9133 6.99094C49.0883 6.99094 49.2602 7.03694 49.4118 7.12434L61.3899 14.0208C61.4323 14.0457 61.4647 14.0769 61.5021 14.1055C61.5333 14.1305 61.5694 14.1529 61.5981 14.1803C61.633 14.2165 61.6579 14.2576 61.6878 14.2975C61.7103 14.3274 61.7377 14.3536 61.7551 14.386C61.7838 14.4346 61.8 14.4882 61.8199 14.5405C61.8312 14.5692 61.8474 14.5954 61.8548 14.6253ZM59.893 27.9844V16.6121L55.7013 19.0252L49.9104 22.3593V33.7317L59.8942 27.9844H59.893ZM47.9149 48.5566V37.1768L42.2187 40.4299L25.953 49.7133V61.2003L47.9149 48.5566ZM1.99677 9.83281V48.5566L23.9562 61.199V49.7145L12.4841 43.2219L12.4804 43.2194L12.4754 43.2169C12.4368 43.1945 12.4044 43.1621 12.3682 43.1347C12.3371 43.1097 12.3009 43.0898 12.2735 43.0624L12.271 43.0586C12.2386 43.0275 12.2162 42.9888 12.1887 42.9539C12.1638 42.9203 12.1339 42.8916 12.114 42.8567L12.1127 42.853C12.0903 42.8156 12.0766 42.7707 12.0604 42.7283C12.0442 42.6909 12.023 42.656 12.013 42.6161C12.0005 42.5688 11.998 42.5177 11.9931 42.4691C11.9881 42.4317 11.9781 42.3943 11.9781 42.3569V15.5801L6.18848 12.2446L1.99677 9.83281ZM12.9777 2.36177L2.99764 8.10652L12.9752 13.8513L22.9541 8.10527L12.9752 2.36177H12.9777ZM18.1678 38.2138L23.9574 34.8809V9.83281L19.7657 12.2459L13.9749 15.5801V40.6281L18.1678 38.2138ZM48.9133 9.14105L38.9344 14.8858L48.9133 20.6305L58.8909 14.8846L48.9133 9.14105ZM47.9149 22.3593L42.124 19.0252L37.9323 16.6121V27.9844L43.7219 31.3174L47.9149 33.7317V22.3593ZM24.9533 47.987L39.59 39.631L46.9065 35.4555L36.9352 29.7145L25.4544 36.3242L14.9907 42.3482L24.9533 47.987Z" fill="#FF2D20"/>
-                    </svg>
-                </div>
 
-                <div class="mt-16">
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
-                        <a href="https://laravel.com/docs" class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
-                            <div>
-                                <div class="h-16 w-16 bg-red-50 dark:bg-red-800/20 flex items-center justify-center rounded-full">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-7 h-7 stroke-red-500">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
-                                    </svg>
-                                </div>
+   <!-- Go Top Button -->
+   <button id="scroll_top" class="scroll-top">
+      <i class="fa-solid fa-arrow-up"></i>
+   </button>
 
-                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Documentation</h2>
+   <!-- Preloader -->
+   <div class="loader">
+      <div class="loader__container">
+         <div class="loader__film">
+            <img class=loader__film-img src="{{asset('theme/assets/img/loader/film.png')}}" alt="img not found">
+            <img class=loader__film-img src="{{asset('theme/assets/img/loader/film-2.png')}}" alt="img not found">
+         </div>
+         <img class=loader__camera src="{{asset('theme/assets/img/loader/camera.png')}}" alt="img not found">
+      </div>
+   </div>
 
-                                <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    Laravel has wonderful documentation covering every aspect of the framework. Whether you are a newcomer or have prior experience with Laravel, we recommend reading our documentation from beginning to end.
-                                </p>
-                            </div>
+   <!-- header area start -->
+   <header id="header-sticky" class="fm-header-area  header-spc transparent-header">
+      <div class="container">
+         <div class="row align-items-center justify-content-lg-between">
+            <div class="header-wrapper">
+               <div class="fm-header-logo-wrapper">
+                  <a href="index.html" class="fm-header-logo">
+                     <img src="{{asset('theme/assets/img/logo/logo.png')}}" alt="img not found">
+                  </a>
+                  <a href="#0" class="fm-header-bar-1">
+                     <span class="fm-header-bar-line fm-header-bar-line-1"></span>
+                     <span class="fm-header-bar-line fm-header-bar-line-2"></span>
+                     <span class="fm-header-bar-line fm-header-bar-line-3"></span>
+                  </a>
+               </div>
+               <div class="header-menu-spc d-none d-xl-block">
+                  <div class="fm-header-nav">
 
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="self-center shrink-0 stroke-red-500 w-6 h-6 mx-6">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                            </svg>
-                        </a>
+                     <nav id="mobile-menu">
+                        <ul>
+                           <li class="active has-dropdown">
+                              <a href="index.html">Home</a>
+                              <ul class="submenu">
+                                 <li><a href="index.html">Movie Director</a></li>
+                                 <li><a href="index-2.html">Filming Works</a></li>
+                                 <li><a href="movie-film.html">Movie and Film</a></li>
+                                 <li><a href="filming-history.html">Filming History</a></li>
+                                 <li><a href="updated-movie.html">Movie Features</a></li>
+                              </ul>
+                           </li>
 
-                        <a href="https://laracasts.com" class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
-                            <div>
-                                <div class="h-16 w-16 bg-red-50 dark:bg-red-800/20 flex items-center justify-center rounded-full">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-7 h-7 stroke-red-500">
-                                        <path stroke-linecap="round" d="M15.75 10.5l4.72-4.72a.75.75 0 011.28.53v11.38a.75.75 0 01-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 002.25-2.25v-9a2.25 2.25 0 00-2.25-2.25h-9A2.25 2.25 0 002.25 7.5v9a2.25 2.25 0 002.25 2.25z" />
-                                    </svg>
-                                </div>
 
-                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Laracasts</h2>
+                           <li class="has-dropdown"><a href="#">Movie</a>
+                              <ul class="submenu">
+                                 <li><a href="movie.html">Movie</a></li>
+                                 <li><a href="movie-details.html">Movie Details</a></li>
+                              </ul>
+                           </li>
 
-                                <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development. Check them out, see for yourself, and massively level up your development skills in the process.
-                                </p>
-                            </div>
+                           <li class="has-dropdown"><a href="#">Portfolio</a>
+                              <ul class="submenu">
+                                 <li><a href="portfolio-masonary.html">Masonary</a></li>
+                                 <li><a href="portfolio-slider.html">Slider</a></li>
+                                 <li><a href="portfolio-details.html">Portfolio Details</a></li>
+                              </ul>
+                           </li>
 
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="self-center shrink-0 stroke-red-500 w-6 h-6 mx-6">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                            </svg>
-                        </a>
+                           <li class="has-dropdown has-mega-menu">
+                              <a href="#">Pages</a>
+                              <ul class="mega-menu">
+                                 <li><a href="javasript:void(0);" class="mega-menu-title">Page Layout 1</a>
+                                    <ul>
+                                       <li> <a href="about.html">About us</a></li>
+                                       <li><a href="service.html">Service</a></li>
+                                       <li><a href="service-details.html">Service Details</a></li>
+                                       <li><a href="team.html">Team</a></li>
+                                       <li><a href="team-details.html">Team Details</a></li>
+                                    </ul>
+                                 </li>
+                                 <li><a href="javasript:void(0);" class="mega-menu-title">Page Layout 2</a>
+                                    <ul>
+                                       <li><a href="faq.html">FAQ's</a></li>
+                                       <li><a href="pricing.html">Pricing</a></li>
+                                       <li><a href="cart.html">Cart</a></li>
+                                       <li><a href="contact.html">Contact Us</a></li>
+                                       <li><a href="404.html">404</a></li>
+                                    </ul>
+                                 </li>
+                                 <li><a href="javasript:void(0);" class="mega-menu-title">Page Layout 3</a>
+                                    <ul>
+                                       <li><a href="shop-sidebar.html">Shop Sidebar</a></li>
+                                       <li><a href="shop-details.html">Shop Details</a></li>
+                                       <li><a href="shop-4.html">Shop 4 Column</a></li>
+                                       <li><a href="blog.html">Blog Standard</a></li>
+                                       <li><a href="blog-details.html">Blog Details</a></li>
+                                    </ul>
+                                 </li>
+                              </ul>
+                           </li>
 
-                        <a href="https://laravel-news.com" class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
-                            <div>
-                                <div class="h-16 w-16 bg-red-50 dark:bg-red-800/20 flex items-center justify-center rounded-full">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-7 h-7 stroke-red-500">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 7.5h1.5m-1.5 3h1.5m-7.5 3h7.5m-7.5 3h7.5m3-9h3.375c.621 0 1.125.504 1.125 1.125V18a2.25 2.25 0 01-2.25 2.25M16.5 7.5V18a2.25 2.25 0 002.25 2.25M16.5 7.5V4.875c0-.621-.504-1.125-1.125-1.125H4.125C3.504 3.75 3 4.254 3 4.875V18a2.25 2.25 0 002.25 2.25h13.5M6 7.5h3v3H6v-3z" />
-                                    </svg>
-                                </div>
+                           <li class="has-dropdown"><a href="#"> Blog</a>
+                              <ul class="submenu">
+                                 <li><a href="blog-wide.html">Blog Wide</a></li>
+                                 <li><a href="blog.html">Blog Standard </a></li>
+                                 <li><a href="blog-details.html">Blog Details</a></li>
+                              </ul>
+                           </li>
 
-                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Laravel News</h2>
 
-                                <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    Laravel News is a community driven portal and newsletter aggregating all of the latest and most important news in the Laravel ecosystem, including new package releases and tutorials.
-                                </p>
-                            </div>
+                           <li class="has-dropdown"><a href="#">Contact</a>
+                              <ul class="submenu">
+                                 <li><a href="contact.html">Contact Us</a></li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </nav>
 
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="self-center shrink-0 stroke-red-500 w-6 h-6 mx-6">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                            </svg>
-                        </a>
-
-                        <div class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
-                            <div>
-                                <div class="h-16 w-16 bg-red-50 dark:bg-red-800/20 flex items-center justify-center rounded-full">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-7 h-7 stroke-red-500">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.115 5.19l.319 1.913A6 6 0 008.11 10.36L9.75 12l-.387.775c-.217.433-.132.956.21 1.298l1.348 1.348c.21.21.329.497.329.795v1.089c0 .426.24.815.622 1.006l.153.076c.433.217.956.132 1.298-.21l.723-.723a8.7 8.7 0 002.288-4.042 1.087 1.087 0 00-.358-1.099l-1.33-1.108c-.251-.21-.582-.299-.905-.245l-1.17.195a1.125 1.125 0 01-.98-.314l-.295-.295a1.125 1.125 0 010-1.591l.13-.132a1.125 1.125 0 011.3-.21l.603.302a.809.809 0 001.086-1.086L14.25 7.5l1.256-.837a4.5 4.5 0 001.528-1.732l.146-.292M6.115 5.19A9 9 0 1017.18 4.64M6.115 5.19A8.965 8.965 0 0112 3c1.929 0 3.716.607 5.18 1.64" />
-                                    </svg>
-                                </div>
-
-                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Vibrant Ecosystem</h2>
-
-                                <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    Laravel's robust library of first-party tools and libraries, such as <a href="https://forge.laravel.com" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Forge</a>, <a href="https://vapor.laravel.com" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Vapor</a>, <a href="https://nova.laravel.com" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Nova</a>, and <a href="https://envoyer.io" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Envoyer</a> help you take your projects to the next level. Pair them with powerful open source libraries like <a href="https://laravel.com/docs/billing" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Cashier</a>, <a href="https://laravel.com/docs/dusk" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Dusk</a>, <a href="https://laravel.com/docs/broadcasting" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Echo</a>, <a href="https://laravel.com/docs/horizon" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Horizon</a>, <a href="https://laravel.com/docs/sanctum" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Sanctum</a>, <a href="https://laravel.com/docs/telescope" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Telescope</a>, and more.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="flex justify-center mt-16 px-0 sm:items-center sm:justify-between">
-                    <div class="text-center text-sm text-gray-500 dark:text-gray-400 sm:text-left">
-                        <div class="flex items-center gap-4">
-                            <a href="https://github.com/sponsors/taylorotwell" class="group inline-flex items-center hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="-mt-px mr-1 w-5 h-5 stroke-gray-400 dark:stroke-gray-600 group-hover:stroke-gray-600 dark:group-hover:stroke-gray-400">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
-                                </svg>
-                                Sponsor
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="ml-4 text-center text-sm text-gray-500 dark:text-gray-400 sm:text-right sm:ml-0">
-                        Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
-                    </div>
-                </div>
+                  </div>
+               </div>
+               <div class="fm-header-right d-none d-xl-block">
+                  <a href="contact.html" class="hero-btn">Let's Chat
+                     <span>
+                        <i class="fa-regular fa-arrow-right"></i>
+                     </span>
+                  </a>
+               </div>
             </div>
-        </div>
-    </body>
+
+         </div>
+      </div>
+   </header>
+   <!-- header area end -->
+
+   <!-- sidebar area start -->
+   <div class="fm-header-sidebar-area fm-header-sidebar-left">
+      <div class="fm-header-sidebar-wrapper">
+         <div class="fm-header-sidebar-action mb-75">
+            <div class="fm-header-sidebar-logo">
+               <a href="index.html"><img src="{{asset('theme/assets/img/logo/logo.png')}}" alt="img not found"></a>
+            </div>
+            <div class="offcanvas-close">
+               <a class="offcanvas-btn" href="#0">
+                  <i class="fa-thin fa-times"></i>
+               </a>
+            </div>
+         </div>
+         <div class="d-none d-sm-block">
+            <div class="fm-offcanvas-about mt-30 mb-30">
+               <h4>About Faime</h4>
+               <p>We Believe Film And Moving Image Has The Power
+                  To
+                  Create
+                  Significant Change.</p>
+            </div>
+         </div>
+         <div class="d-none d-sm-block">
+            <div class="fm-header-sidebar-search">
+               <form action="https://html.bdevs.net/faime-prev/faime/index.html">
+                  <input type="text" placeholder="Search here">
+                  <button type="submit"><i class="flaticon flaticon-search"></i></button>
+               </form>
+            </div>
+         </div>
+         <div class="mobile-menu"></div>
+         <div class="offcanvas-contact mt-45 mb-30">
+            <h4 class="offcanvas-contact-title">Contact Information</h4>
+            <ul>
+               <li class="d-flex align-items-center gap-2">
+                  <div class="offcanvas-contact-icon">
+                     <a target="_blank"
+                        href="https://www.google.com/maps/place/Dhaka/@23.7806207,90.3492859,12z/data=!3m1!4b1!4m5!3m4!1s0x3755b8b087026b81:0x8fa563bbdd5904c2!8m2!3d23.8104753!4d90.4119873">
+                        <i class="fal fa-map-marker-alt"></i></a>
+                  </div>
+                  <div class="offcanvas-contact-text">
+                     <a target="_blank"
+                        href="https://www.google.com/maps/place/Dhaka/@23.7806207,90.3492859,12z/data=!3m1!4b1!4m5!3m4!1s0x3755b8b087026b81:0x8fa563bbdd5904c2!8m2!3d23.8104753!4d90.4119873">477-463
+                        Broadway, NY 10013 Bournemouth</a>
+                  </div>
+               </li>
+               <li class="d-flex align-items-center gap-2">
+                  <div class="offcanvas-contact-icon">
+                     <a href="tel:+088889797697"><i class="far fa-phone"></i></a>
+                  </div>
+                  <div class="offcanvas-contact-text">
+                     <a href="tel:915550303420">+91 555 0303 420</a>
+                  </div>
+               </li>
+               <li class="d-flex align-items-center gap-2">
+                  <div class="offcanvas-contact-icon">
+                     <a href="https://html.bdevs.net/cdn-cgi/l/email-protection#3c4f494c4c534e487c5b515d5550125f5351"><i class="fal fa-envelope"></i></a>
+                  </div>
+                  <div class="offcanvas-contact-text">
+                     <a href="https://html.bdevs.net/cdn-cgi/l/email-protection#1b737e7777745b7d7a72767e767e7f727a35787476"><span class="__cf_email__" data-cfemail="f098959c9c9fb09691999d959d95949991de939f9d">[email&#160;protected]</span></a>
+                  </div>
+               </li>
+            </ul>
+         </div>
+         <div class="d-none d-sm-block d-sm-none d-md-block">
+            <div class="fm-offcanvas-social">
+               <span class="social-text">Follow :</span>
+               <div class="fm-offcanvas-social-icon">
+                  <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://www.pinterest.com/" target="_blank"><i class="fa-brands fa-pinterest-p"></i></a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="overlay"></div>
+   <!-- sidebar area end -->
+
+
+   <main>
+
+      <!-- fm-hero-area-start -->
+      <div class="fm-hero-area black-bg hero-style hero-spc">
+         <div class="hero-bg-thumb ">
+            <img src="{{asset('theme/assets/img/bg/bg-1.png')}}" alt="img not found">
+         </div>
+         <div class="hero-shape-wrapper">
+            <img class="hero-shape shape-1 d-none d-sm-block d-lg-none d-xl-block d-md-none d-lg-block"
+               src="{{asset('theme/assets/img/new-award-logo/award-1.png')}}" alt="award shape">
+         </div>
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="col-xl-8 col-lg-8 ">
+
+                  <div class="fm-hero-video-wrapper hero__six_anim ">
+
+                     <a href="https://assets.mixkit.co/videos/preview/mixkit-crew-working-on-a-film-at-warehouse-22994-large.mp4"
+                        class="popup-video hero-btn-hover">
+
+                        <div class="fm-hero-video-thumb ">
+                           <img src="{{asset('theme/assets/img/bg/hero-small.png')}}" alt="img not found">
+                        </div>
+
+                        <div class="fm-hero-video fm-featured-video-btn">
+                           <div class="fm-hero-video-btn">Play
+                              Trailer<i class="fas fa-play">
+
+                              </i></div>
+                        </div>
+
+                     </a>
+                  </div>
+
+                  <div class="fm-hero-section-wrapper hero__six_anim">
+                     <div class="fm-hero-section-title">
+                        <span class="fm-hero-subtitle ">AN award winning web series</span>
+                        <h1 class="fm-hero-main-title hero__title-6">
+                           <span class="title-left">FAIME</span>
+                           <span class="spc-text title-right">GAME</span>
+                        </h1>
+                     </div>
+                  </div>
+
+               </div>
+               <div class="col-xl-4 col-lg-4 ">
+                  <div class="fm-hero-thumb d-none d-sm-block hero__right-6">
+                     <img src="{{asset('theme/assets/img/portfolio/port-1.png')}}" alt="img not found">
+                  </div>
+                  <div class="d-none d-xl-none d-xxl-block">
+                     <div class="fm-slider-main-social-abs">
+                        <div class="fm-sliderfull-social">
+                           <label>Follow</label>
+                           <a href="https://www.facebook.com/" target="_blank"><i
+                                 class="fa-brands fa-facebook-f"></i></a>
+                           <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                           <a href="https://www.instagram.com/" target="_blank"><i
+                                 class="fa-brands fa-instagram"></i></a>
+                           <a href="https://www.pinterest.com/" target="_blank"><i
+                                 class="fa-brands fa-pinterest-p"></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- fm-hero-area-end -->
+
+      <!-- about-area-start -->
+      <section class="about-area pt-140 pb-150">
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-5 col-lg-12">
+                  <div class="about-sub">
+                     <span class="about-subtitle title-anim">About FAIME</span>
+                  </div>
+               </div>
+               <div class="col-xl-7 col-lg-12">
+                  <div class="section-title">
+                     <h2 class="section-main-title about-main-title title-anim">On-Demand Video
+                        Production Company</h2>
+                     <div class="section-text about-text">
+                        <p>Faime Production Is A Full—Service Production
+                           House Based
+                           Out
+                           Of Indonesia
+                           And Singapore That Hosts A Thriving Roster Of Directors Working Across A Range Of
+                           Artistic
+                           Disciplines.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="about-thumb-wrapper">
+                  <div class="about-exp">
+                     <h4 class="about-exp-num">10</h4>
+                     <p class="about-exp-text">years of <br>
+                        experience</p>
+                  </div>
+                  <div class="row">
+
+                     <div class="col-12">
+                        <div class="about-thumb">
+                           <img src="{{asset('theme/assets/img/bg/about-bg.jpg')}}" alt="img not found" data-speed="auto">
+
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- about-area-end -->
+
+      <!-- featured-area-start -->
+      <section class="featured-area pt-145 pb-165 featured-full-width p-relative">
+         <div class="featured-bg" data-background="assets/img/bg/featured-bg.png')}}">
+         </div>
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+
+
+                  <div class="fm-featured-wrapper">
+
+                     <div class="featured-sec-wrapper">
+                        <div class="section-title">
+                           <span class="section-subtitle featured-sub-title title-anim">Featured
+                              PRODUCTION</span>
+                           <h2 class="section-main-title featured-sec-title title-anim">The featured
+                              production we
+                              created proudly</h2>
+                        </div>
+                     </div>
+
+                     <div class="btn-featured-wrapper">
+                        <div class="featured-btn-circle-wrap btn_wrapper">
+                           <a href="movie-details.html" class="featured-rotate-btn btn__item-move">
+                              <span>
+                                 <i class="flaticon-right-arrow-1"></i>
+                              </span>
+                           </a>
+                           <img class="image-text" src="{{asset('theme/assets/img/bg/btn-bg.png')}}" alt="img not found">
+                        </div>
+                     </div>
+
+                  </div>
+
+
+               </div>
+            </div>
+         </div>
+         <div class="container">
+            <div class="featured-wrapper featured-slider-wrapper">
+               <div class="swiper-container featured-active slider-drag">
+                  <div class="swiper-wrapper">
+                     <div class="swiper-slide">
+                        <div class="fm-single-featured">
+                           <div class="fm-featured-thumb">
+                              <a href="movie.html"> <img src="{{asset('theme/assets/img/new-slider/img-1.png')}}" alt="img not found"></a>
+                           </div>
+                           <div class="fm-featured-content">
+                              <div class="fm-featured-content-inner">
+                                 <a href="portfolio-details.html">
+                                    <h4 class="fm-featured-title">Action Movie</h4>
+                                 </a>
+                                 <span class="fm-featured-meta">Release Date: 25 June 2022</span>
+                              </div>
+                              <div class="fm-video-play">
+                                 <a class="fm-featured-video-wrapper popup-video"
+                                    href="https://assets.mixkit.co/videos/preview/mixkit-mercenary-looking-for-zombies-in-an-abandoned-building-41783-large.mp4"><i
+                                       class="fas fa-play"></i><span class="fm-featured-video-btn">Play
+                                       Trailer</span></a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="swiper-slide">
+                        <div class="fm-single-featured">
+                           <div class="fm-featured-thumb">
+                              <a href="movie.html"> <img src="{{asset('theme/assets/img/new-slider/img-2.png')}}" alt="img not found"></a>
+                           </div>
+                           <div class="fm-featured-content">
+                              <div class="fm-featured-content-inner">
+                                 <a href="portfolio-details.html">
+                                    <h4 class="fm-featured-title">Comedy Movie</h4>
+                                 </a>
+                                 <span class="fm-featured-meta">Release Date: 30 Jan 2021</span>
+                              </div>
+                              <div class="fm-video-play">
+                                 <a class="fm-featured-video-wrapper popup-video"
+                                    href="https://assets.mixkit.co/videos/preview/mixkit-mime-in-front-of-the-eiffel-tower-4772-large.mp4"><i
+                                       class="fas fa-play"></i><span class="fm-featured-video-btn">Play
+                                       Trailer</span></a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="swiper-slide">
+                        <div class="fm-single-featured">
+                           <div class="fm-featured-thumb">
+                              <a href="movie.html"> <img src="{{asset('theme/assets/img/new-slider/img-3.png')}}" alt="img not found"></a>
+                           </div>
+                           <div class="fm-featured-content">
+                              <div class="fm-featured-content-inner">
+                                 <a href="portfolio-details.html">
+                                    <h4 class="fm-featured-title">Thriller Movie</h4>
+                                 </a>
+                                 <span class="fm-featured-meta">Release Date: 25 FEb 2023</span>
+                              </div>
+                              <div class="fm-video-play">
+                                 <a class="fm-featured-video-wrapper  popup-video"
+                                    href="https://assets.mixkit.co/videos/preview/mixkit-running-scared-down-a-hospital-hall-at-night-41764-large.mp4"><i
+                                       class="fas fa-play"></i><span class="fm-featured-video-btn">Play
+                                       Trailer</span></a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="swiper-slide">
+                        <div class="fm-single-featured">
+                           <div class="fm-featured-thumb">
+                              <a href="movie.html"> <img src="{{asset('theme/assets/img/new-slider/img-4.png')}}" alt="img not found"></a>
+                           </div>
+                           <div class="fm-featured-content">
+                              <div class="fm-featured-content-inner">
+                                 <a href="portfolio-details.html">
+                                    <h4 class="fm-featured-title">Action Movie</h4>
+                                 </a>
+                                 <span class="fm-featured-meta">Release Date: 01 May 2022</span>
+                              </div>
+                              <div class="fm-video-play">
+                                 <a class="fm-featured-video-wrapper popup-video"
+                                    href="https://assets.mixkit.co/videos/preview/mixkit-airplane-flying-in-a-red-cloudy-sky-7476-large.mp4"><i
+                                       class="fas fa-play"></i><span class="fm-featured-video-btn ">Play
+                                       Trailer</span></a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="swiper-slide">
+                        <div class="fm-single-featured">
+                           <div class="fm-featured-thumb">
+                              <a href="movie.html"> <img src="{{asset('theme/assets/img/new-slider/img-5.png')}}" alt="img not found"></a>
+                           </div>
+                           <div class="fm-featured-content">
+                              <div class="fm-featured-content-inner">
+                                 <a href="portfolio-details.html">
+                                    <h4 class="fm-featured-title">Superhero Movie</h4>
+                                 </a>
+                                 <span class="fm-featured-meta">Release Date: 10 Dec 2020</span>
+                              </div>
+                              <div class="fm-video-play">
+                                 <a class="fm-featured-video-wrapper popup-video"
+                                    href="https://assets.mixkit.co/videos/preview/mixkit-large-tarantula-spider-in-red-light-45639-large.mp4"><i
+                                       class="fas fa-play"></i><span class="fm-featured-video-btn">Play
+                                       Trailer</span></a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="featured-slider-btn">
+                  <div class="featured-slider-button-prev square-btn">
+                     <i class="fal fa-angle-left"></i>
+                  </div>
+                  <div class="featured-slider-button-next square-btn">
+                     <i class="fal fa-angle-right"></i>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="featured-scroll-area">
+            <div class="swiper text-scroll">
+               <div class="swiper-wrapper featured-scroll-wrapper">
+                  <div class="swiper-slide">
+                     <div class="featured-scroll-line">
+                        <h2 class="featured-scroll-line-heading">bolywood. Hollywood. tolywood</h2>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- featured-area-end -->
+
+      <!-- services-area-start -->
+      <section class="fm-services-area pt-140 pb-120">
+         <div class="container">
+            <div class="row justify-content-center">
+               <div class="col-xl-6">
+                  <div class="section-title text-center">
+                     <span class="section-subtitle title-anim">WHAT WE DO</span>
+                     <div>
+                        <h2 class="section-main-title service-sec-title title-anim">Our BEST EXPERTISE</h2>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class=" fade_animation">
+               <div class="row">
+
+                  <div class="col-xxl-4 col-xl-6 col-lg-6 col-md-6">
+                     <div class="fm-services-item img-hover p-relative mb-30 fade__anim-item">
+                        <div class="services-thumb" data-background="assets/img/services/img-1.jpg')}}">
+                        </div>
+                        <div class="fm-services-icon mb-27">
+                           <img src="{{asset('theme/assets/img/new-icon/img-1.png')}}" alt="img not found">
+                        </div>
+                        <div class="fm-services-content">
+                           <h4 class="fm-services-title mb-10"><a href="services.html">Filming
+                                 Service</a>
+                           </h4>
+                           <p class="fm-services-text">Playing field is rarely level when it is to making
+                              decisions
+                              people are amenable</p>
+                           <div class="fm-btn services-btn">
+                              <a href="service-details.html" class="fm-view-more">View More
+                                 <span><i class="fa-regular fa-arrow-right"></i></span>
+                              </a>
+
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="col-xxl-4 col-xl-6 col-lg-6 col-md-6">
+                     <div class="fm-services-item img-hover p-relative mb-30 fade__anim-item">
+                        <div class="services-thumb" data-background="assets/img/services/img-2.jpg')}}">
+                        </div>
+                        <div class="fm-services-icon mb-27">
+                           <img src="{{asset('theme/assets/img/new-icon/img-2.png')}}" alt="img not found">
+                        </div>
+                        <div class="fm-services-content">
+                           <h4 class="fm-services-title mb-10"><a href="services.html">Animation</a>
+                           </h4>
+                           <p class="fm-services-text">This is why we need to take the chances we are given
+                              and
+                              run with
+                              them</p>
+                           <div class="fm-btn services-btn">
+                              <a href="service-details.html" class="fm-view-more">View More
+                                 <span><i class="fa-regular fa-arrow-right"></i></span>
+                              </a>
+
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="col-xxl-4 col-xl-6 col-lg-6 col-md-6 ">
+                     <div class="fm-services-item img-hover p-relative mb-30 fade__anim-item">
+                        <div class="services-thumb" data-background="assets/img/services/img-3.jpg')}}">
+                        </div>
+                        <div class="fm-services-icon mb-27">
+                           <img src="{{asset('theme/assets/img/new-icon/img-3.png')}}" alt="img not found">
+                        </div>
+                        <div class="fm-services-content">
+                           <h4 class="fm-services-title mb-10"><a href="services.html">BLOCK
+                                 BUSTERS</a>
+                           </h4>
+                           <p class="fm-services-text">As well as this, most companies are not main
+                              structured to
+                              encourage</p>
+                           <div class="fm-btn services-btn">
+                              <a href="service-details.html" class="fm-view-more">View More
+                                 <span><i class="fa-regular fa-arrow-right"></i></span>
+                              </a>
+
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="col-xxl-4 col-xl-6 col-lg-6 col-md-6 ">
+                     <div class="fm-services-item img-hover p-relative mb-30 fade__anim-item">
+                        <div class="services-thumb" data-background="assets/img/services/img-4.jpg')}}">
+                        </div>
+                        <div class="fm-services-icon mb-27">
+                           <img src="{{asset('theme/assets/img/new-icon/img-4.png')}}" alt="img not found">
+                        </div>
+                        <div class="fm-services-content">
+                           <h4 class="fm-services-title mb-10"><a href="services.html">Direction</a>
+                           </h4>
+                           <p class="fm-services-text">We actually can be benchmarked differently for
+                              different
+                              positions.</p>
+                           <div class="fm-btn services-btn">
+                              <a href="service-details.html" class="fm-view-more">View More
+                                 <span><i class="fa-regular fa-arrow-right"></i></span>
+                              </a>
+
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="col-xxl-4 col-xl-6 col-lg-6 col-md-6">
+                     <div class="fm-services-item img-hover p-relative mb-30 fade__anim-item">
+                        <div class="services-thumb" data-background="assets/img/services/img-5.jpg')}}">
+                        </div>
+                        <div class="fm-services-icon mb-27">
+                           <img src="{{asset('theme/assets/img/new-icon/img-5.png')}}" alt="img not found">
+                        </div>
+                        <div class="fm-services-content">
+                           <h4 class="fm-services-title mb-10"><a href="services.html">FILM
+                                 PRODUCTION
+                              </a></h4>
+                           <p class="fm-services-text">Cinema career will actually benefit a lot more from
+                              being a
+                              team
+                              player.</p>
+                           <div class="fm-btn services-btn">
+                              <a href="service-details.html" class="fm-view-more">View More
+                                 <span><i class="fa-regular fa-arrow-right"></i></span>
+                              </a>
+
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="col-xxl-4 col-xl-6 col-lg-6 col-md-6 ">
+                     <div class="fm-services-item img-hover p-relative mb-30 fade__anim-item">
+                        <div class="services-thumb" data-background="assets/img/services/img-6.jpg')}}">
+                        </div>
+                        <div class="fm-services-icon mb-27">
+                           <img src="{{asset('theme/assets/img/new-icon/img-6.png')}}" alt="img not found">
+                        </div>
+                        <div class="fm-services-content">
+                           <h4 class="fm-services-title mb-10"><a href="services.html">Motion
+                                 Graphic </a>
+                           </h4>
+                           <p class="fm-services-text">If you’d like to plan out a more equitable and
+                              democratic
+                              approach.</p>
+                           <div class="fm-btn services-btn">
+                              <a href="service-details.html" class="fm-view-more">View More
+                                 <span><i class="fa-regular fa-arrow-right"></i></span>
+                              </a>
+
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- services-area-end -->
+
+      <!-- video-area-start -->
+      <div class="video-area fm-video-style">
+         <div class="fm-video-wrapper">
+            <video loop="" muted="" autoplay="" playsinline="">
+               <source src="{{asset('theme/assets/video/video-1.mp4')}}" type="video/mp4">
+            </video>
+         </div>
+      </div>
+      <!-- video-area-end -->
+
+      <!-- team-area-start -->
+      <section class="team-area pb-150 pt-140">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="team-sec-wrapper">
+                     <div class="section-title">
+                        <span class="section-subtitle featured-sub-title title-anim">awesome team</span>
+                        <h2 class="section-main-title team-sec-title title-anim">Creative team</h2>
+                     </div>
+                     <div class=" team-btn fade_bottom">
+                        <a class="team-details-btn" href="team-details.html">View All
+                           <span><i class=" fa-regular fa-arrow-right"></i></span>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="container">
+            <div class="fm-team-border">
+               <div class="fm-team-wrapper">
+                  <div class="fm-team-item p-relative">
+                     <div class="fm-team-thumb w-img">
+                        <a href="team-details.html">
+                           <img src="{{asset('theme/assets/img/team/img-1.jpg')}}" alt="img not found">
+                        </a>
+                     </div>
+                     <div class="fm-team-content">
+                        <h4 class="fm-team-title "><a href="team-details.html">CRISTINA ANGEL</a></h4>
+                        <span class="fm-team-designation ">VEDIO EDITOR</span>
+                     </div>
+                  </div>
+                  <div class="fm-team-item p-relative active">
+                     <div class="fm-team-thumb w-img">
+                        <a href="team-details.html">
+                           <img src="{{asset('theme/assets/img/team/img-2.jpg')}}" alt="img not found">
+                        </a>
+                     </div>
+                     <div class="fm-team-content">
+                        <h4 class="fm-team-title "><a href="team-details.html">IRA BANANA</a></h4>
+                        <span class="fm-team-designation">DIRECTOR</span>
+                     </div>
+                  </div>
+                  <div class="fm-team-item p-relative">
+                     <div class="fm-team-thumb w-img">
+                        <a href="team-details.html">
+                           <img src="{{asset('theme/assets/img/team/img-3.jpg')}}" alt="img not found">
+                        </a>
+                     </div>
+                     <div class="fm-team-content">
+                        <h4 class="fm-team-title "><a href="team-details.html">ANDRES MAN</a></h4>
+                        <span class="fm-team-designation ">CAMERAMAN</span>
+                     </div>
+                  </div>
+                  <div class="fm-team-item p-relative">
+                     <div class="fm-team-thumb w-img">
+                        <a href="team-details.html">
+                           <img src="{{asset('theme/assets/img/team/img-4.jpg')}}" alt="img not found">
+                        </a>
+                     </div>
+                     <div class="fm-team-content">
+                        <h4 class="fm-team-title "><a href="team-details.html">CHARLEY BOXES
+                           </a></h4>
+                        <span class="fm-team-designation ">VOICE MAKOVER</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- team-area-end -->
+
+      <!-- testimonial-area-start -->
+      <section class="testimonial-area pt-140 pb-150 p-relative">
+         <div class="testimonial-bg" data-background="assets/img/bg/testimonial.png')}}">
+         </div>
+         <div class="container">
+            <div class="row">
+               <div class="testimonial-sec-wrapper">
+
+                  <div class="section-title testimonial-pos">
+                     <span class="section-subtitle featured-sub-title  title-anim">SATISFIED CLIENTS</span>
+                     <h2 class="section-main-title featured-sec-title  title-anim">customers feedback</h2>
+                  </div>
+
+                  <div class="testimonial-pagination circle-dot-pagination fade_bottom_2"></div>
+
+
+               </div>
+            </div>
+            <div class="fm-testimonial-slide-wrapper">
+               <div class="testimonial-active swiper-container slider-drag">
+                  <div class="swiper-wrapper">
+                     <div class="swiper-slide">
+                        <div class="fm-testimonial-content">
+                           <div class="fm-testimonial-quote-icon">
+                              <span><svg id="quote_2_" data-name="quote (2)" xmlns="http://www.w3.org/2000/svg"
+                                    width="66.569" height="47.769" viewBox="0 0 66.569 47.769">
+                                    <path id="Path_8645" data-name="Path 8645"
+                                       d="M27.018,0H1.95A1.95,1.95,0,0,0,0,1.95V27.018a1.95,1.95,0,0,0,1.95,1.95H12.534V45.819a1.95,1.95,0,0,0,1.95,1.95h6.267a1.95,1.95,0,0,0,1.85-1.334l6.267-18.8a1.946,1.946,0,0,0,.1-.617V1.95A1.95,1.95,0,0,0,27.018,0Zm-1.95,26.7L19.345,43.868H16.434V27.018a1.95,1.95,0,0,0-1.95-1.95H3.9V3.9H25.068Zm0,0"
+                                       fill="#171717" />
+                                    <path id="Path_8646" data-name="Path 8646"
+                                       d="M316.217,0H291.149a1.95,1.95,0,0,0-1.95,1.95V27.018a1.95,1.95,0,0,0,1.95,1.95h10.584V45.819a1.95,1.95,0,0,0,1.95,1.95h6.267a1.951,1.951,0,0,0,1.85-1.334l6.267-18.8a1.959,1.959,0,0,0,.1-.617V1.95A1.95,1.95,0,0,0,316.217,0Zm-1.95,26.7-5.722,17.166h-2.911V27.018a1.95,1.95,0,0,0-1.95-1.95H293.1V3.9h21.167Zm0,0"
+                                       transform="translate(-251.598)" fill="#171717" />
+                                 </svg>
+                              </span>
+                           </div>
+                           <div class="fm-testimonial-text">
+                              <p>I Have Worked With Faime The Past Couple Of Years And Have Purchased 10+
+                                 Videos.
+                                 My
+                                 Company Is All Across The US And Working With Faime Was Easy.</p>
+                           </div>
+                           <div class="fm-testimonial-bottom-content">
+                              <div class="fm-testimonial-author">
+                                 <span>
+                                    Adam quel
+                                 </span>
+                              </div>
+                              <div class="fm-testimonial-brand-thumb">
+                                 <img src="{{asset('theme/assets/img/brand/testi-brand.png')}}" alt="img not found">
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="fm-testimonial-content">
+                           <div class="fm-testimonial-quote-icon">
+                              <span><svg id="quote_3_" data-name="quote (3)" xmlns="http://www.w3.org/2000/svg"
+                                    width="66.569" height="47.769" viewBox="0 0 66.569 47.769">
+                                    <path id="Path_28645" data-name="Path 28645"
+                                       d="M27.018,0H1.95A1.95,1.95,0,0,0,0,1.95V27.018a1.95,1.95,0,0,0,1.95,1.95H12.534V45.819a1.95,1.95,0,0,0,1.95,1.95h6.267a1.95,1.95,0,0,0,1.85-1.334l6.267-18.8a1.946,1.946,0,0,0,.1-.617V1.95A1.95,1.95,0,0,0,27.018,0Zm-1.95,26.7L19.345,43.868H16.434V27.018a1.95,1.95,0,0,0-1.95-1.95H3.9V3.9H25.068Zm0,0"
+                                       fill="#171717" />
+                                    <path id="Path_28646" data-name="Path 28646"
+                                       d="M316.217,0H291.149a1.95,1.95,0,0,0-1.95,1.95V27.018a1.95,1.95,0,0,0,1.95,1.95h10.584V45.819a1.95,1.95,0,0,0,1.95,1.95h6.267a1.951,1.951,0,0,0,1.85-1.334l6.267-18.8a1.959,1.959,0,0,0,.1-.617V1.95A1.95,1.95,0,0,0,316.217,0Zm-1.95,26.7-5.722,17.166h-2.911V27.018a1.95,1.95,0,0,0-1.95-1.95H293.1V3.9h21.167Zm0,0"
+                                       transform="translate(-251.598)" fill="#171717" />
+                                 </svg>
+                              </span>
+                           </div>
+                           <div class="fm-testimonial-text">
+                              <p>I Have Worked With Faime The Past Couple Of Years And Have Purchased 10+
+                                 Videos.
+                                 My
+                                 Company Is All Across The US And Working With Faime Was Easy.</p>
+                           </div>
+                           <div class="fm-testimonial-bottom-content">
+                              <div class="fm-testimonial-author">
+                                 <span>
+                                    Ander son
+                                 </span>
+                              </div>
+                              <div class="fm-testimonial-brand-thumb">
+                                 <img src="{{asset('theme/assets/img/brand/testi-brand.png')}}" alt="image not found">
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="fm-testimonial-content">
+                           <div class="fm-testimonial-quote-icon">
+                              <span><svg id="quote_4_" data-name="quote (4)" xmlns="http://www.w3.org/2000/svg"
+                                    width="66.569" height="47.769" viewBox="0 0 66.569 47.769">
+                                    <path id="Path_18645" data-name="Path 18645"
+                                       d="M27.018,0H1.95A1.95,1.95,0,0,0,0,1.95V27.018a1.95,1.95,0,0,0,1.95,1.95H12.534V45.819a1.95,1.95,0,0,0,1.95,1.95h6.267a1.95,1.95,0,0,0,1.85-1.334l6.267-18.8a1.946,1.946,0,0,0,.1-.617V1.95A1.95,1.95,0,0,0,27.018,0Zm-1.95,26.7L19.345,43.868H16.434V27.018a1.95,1.95,0,0,0-1.95-1.95H3.9V3.9H25.068Zm0,0"
+                                       fill="#171717" />
+                                    <path id="Path_18646" data-name="Path 18646"
+                                       d="M316.217,0H291.149a1.95,1.95,0,0,0-1.95,1.95V27.018a1.95,1.95,0,0,0,1.95,1.95h10.584V45.819a1.95,1.95,0,0,0,1.95,1.95h6.267a1.951,1.951,0,0,0,1.85-1.334l6.267-18.8a1.959,1.959,0,0,0,.1-.617V1.95A1.95,1.95,0,0,0,316.217,0Zm-1.95,26.7-5.722,17.166h-2.911V27.018a1.95,1.95,0,0,0-1.95-1.95H293.1V3.9h21.167Zm0,0"
+                                       transform="translate(-251.598)" fill="#171717" />
+                                 </svg>
+                              </span>
+                           </div>
+                           <div class="fm-testimonial-text">
+                              <p>I Have Worked With Faime The Past Couple Of Years And Have Purchased 10+
+                                 Videos.
+                                 My
+                                 Company Is All Across The US And Working With Faime Was Easy.</p>
+                           </div>
+                           <div class="fm-testimonial-bottom-content">
+                              <div class="fm-testimonial-author">
+                                 <span>
+                                    Rowan san
+                                 </span>
+                              </div>
+                              <div class="fm-testimonial-brand-thumb">
+                                 <img src="{{asset('theme/assets/img/brand/testi-brand.png')}}" alt="img not found">
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- testimonial-area-end -->
+
+      <!-- blog-area-start -->
+      <section class="blog-area pt-140 pb-150 black-bg">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="blog-sec-wrapper">
+                     <div class="section-title">
+                        <span class="section-subtitle featured-sub-title title-anim">LATEST NEWS FROM
+                           FAIME</span>
+                        <h2 class="section-main-title blog-sec-title title-anim">FAIME latest BLOG</h2>
+                     </div>
+                     <div class=" blog-btn fade_bottom_3">
+                        <a class="blog-details-btn" href="blog-details.html">View All <span>
+                              <i class=" fa-regular fa-arrow-right"></i>
+                           </span>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="container">
+            <div class="row">
+               <div class="fm-blog-wrapper">
+
+
+                  <div class="fm-blog-inner blog__animation-wrapper ">
+
+                     <div class="fm-blog-thumb mb-40">
+                        <a href="blog-details.html"> <img src="{{asset('theme/assets/img/portfolio/blog-1.png')}}" alt="img not found"></a>
+                     </div>
+
+                     <div class="fm-blog-content blog__content ">
+                        <div class="fm-blog-content-text">
+                           <div class="fm-blog-meta">
+                              <span>3 Mar 2023</span>
+                           </div>
+                           <h4 class="fm-blog-title">
+                              <a href="blog.html">Anne Rice's Mayfair Witches' An
+                                 Only
+                                 Somewhat Spellbinding Gothic</a>
+                           </h4>
+                           <div class="fm-blog-text">
+                              <p class="">it was clear the network had its sights set on resurrecting more
+                                 stories of a
+                                 paranormal
+                                 variety
+                                 for the small-screen market. The epic rights package consisted of 18
+                                 novels,</p>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="fm-featured-btn btn_wrapper ">
+                        <a href="blog-details.html" class="blog-rotate-btn btn__item-move">
+                           <span>
+                              <i class="flaticon-right-arrow-1"></i>
+                           </span>
+                        </a>
+                     </div>
+
+                  </div>
+
+
+                  <div class="fm-blog-inner blog__animation-wrapper">
+
+                     <div class="fm-blog-thumb mb-40">
+                        <a href="blog-details.html"> <img src="{{asset('theme/assets/img/portfolio/blog-2.png')}}" alt="img not found"></a>
+                     </div>
+
+                     <div class="fm-blog-content blog__content">
+                        <div class="fm-blog-content-text">
+                           <div class="fm-blog-meta">
+                              <span>3 Mar 2023</span>
+                           </div>
+                           <h4 class="fm-blog-title">
+                              <a href="blog.html">Rowan can tolerate the undeserved
+                                 criticism
+                                 and dismissive attitude she</a>
+                           </h4>
+                           <div class="fm-blog-text">
+                              <p>it was clear the network had its sights set on resurrecting more
+                                 stories of a
+                                 paranormal
+                                 variety
+                                 for the small-screen market. The epic rights package consisted of 18
+                                 novels,</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="fm-featured-btn btn_wrapper">
+                        <a href="blog-details.html" class="blog-rotate-btn btn__item-move">
+                           <span>
+                              <i class="flaticon-right-arrow-1"></i>
+                           </span>
+                        </a>
+                     </div>
+                  </div>
+
+
+                  <div class="fm-blog-inner blog__animation-wrapper">
+
+                     <div class="fm-blog-thumb">
+                        <a href="blog-details.html"> <img src="{{asset('theme/assets/img/portfolio/blog-3.png')}}" alt="img not found"></a>
+                     </div>
+
+                     <div class="fm-blog-content blog__content">
+                        <div class="fm-blog-content-text">
+                           <div class="fm-blog-meta">
+                              <span>3 Mar 2023</span>
+                           </div>
+                           <h4 class="fm-blog-title">
+                              <a href="blog.html">Mayfair Witches, a somewhat more linear
+                                 story
+                                 in nature, quickly Reach</a>
+                           </h4>
+                           <div class="fm-blog-text">
+                              <p class="">it was clear the network had its sights set on resurrecting more
+                                 stories of a
+                                 paranormal
+                                 variety
+                                 for the small-screen market. The epic rights package consisted of 18
+                                 novels,</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="fm-featured-btn btn_wrapper">
+                        <a href="blog-details.html" class="blog-rotate-btn btn__item-move">
+                           <span>
+                              <i class="flaticon-right-arrow-1"></i>
+                           </span>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- blog-area-end -->
+
+      <!-- brand-area-start -->
+      <div class="brand-area  pt-150 pb-150">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="brand-active slider-drag ">
+                     <div class="fm-brand">
+                        <img src="{{asset('theme/assets/img/brand/img-1.png')}}" alt="img not found">
+                     </div>
+                     <div class="fm-brand">
+                        <img src="{{asset('theme/assets/img/brand/img-2.png')}}" alt="img not found">
+                     </div>
+                     <div class="fm-brand">
+                        <img src="{{asset('theme/assets/img/brand/img-3.png')}}" alt="img not found">
+                     </div>
+                     <div class="fm-brand">
+                        <img src="{{asset('theme/assets/img/brand/img-4.png')}}" alt="img not found">
+                     </div>
+                     <div class="fm-brand">
+                        <img src="{{asset('theme/assets/img/brand/img-5.png')}}" alt="img not found">
+                     </div>
+                     <div class="fm-brand">
+                        <img src="{{asset('theme/assets/img/brand/img-3.png')}}" alt="img not found">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- brand-area-end -->
+
+   </main>
+
+   <!-- footer-area-start -->
+   <footer class="position-relative pt-140">
+      <div class="footer-bg" data-background="{{asset('theme/assets/img/bg/footer/img-1.jpg')}}">
+      </div>
+      <div class="footer-area">
+         <div class="main-footer-top">
+            <div class="container">
+               <div class="row">
+                  <div class="col-12">
+                     <div class="footer-contact text-center">
+                        <div class="footer-contact-text">
+                           <h2 class="footer-contact-title bdFadeUp">If you'd like to <a class="mark-text"
+                                 href="contact.html">talk to us</a>
+                              about a project,
+                              we would love to hear from you.</h2>
+                        </div>
+                        <div class="footer-logo-wrapper">
+                           <a href="index.html" class="fm-footer-logo">
+                              <img src="{{asset('theme/assets/img/logo/logo.png')}}" alt="img not found">
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="footer-bottom">
+            <div class="container">
+               <div class="footer-bottom-wrapper">
+                  <div class="footer-bottom-inner">
+                     <div class="footer-copyright ">
+                        <p>© 2023<a href="index.html"> Faime </a> All Rights Reserved.</p>
+                     </div>
+
+
+                     <div class="footer-rules ">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms & Condition</a>
+                     </div>
+                     <div class="footer-social ">
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.pinterest.com/" target="_blank"><i
+                              class="fa-brands fa-pinterest-p"></i></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <!-- footer-area-end -->
+
+
+
+   <!-- JS here -->
+   <script src="{{asset('theme/assets/js/jquery-3.6.0.min.js')}}"></script>
+   <script src="{{asset('theme/assets/js/bootstrap.bundle.min.js')}}"></script>
+   <script src="{{asset('theme/assets/js/meanmenu.js')}}"></script>
+   <script src="{{asset('theme/assets/js/swiper-bundle.min.js')}}"></script>
+   <script src="{{asset('theme/assets/js/slick.min.js')}}"></script>
+   <script src="{{asset('theme/assets/js/magnific-popup.min.js')}}"></script>
+   <script src="{{asset('theme/assets/js/parallax.min.js')}}"></script>
+   <script src="{{asset('theme/assets/js/gsap.min.js')}}"></script>
+   <script src="{{asset('theme/assets/js/ScrollTrigger.min.js')}}"></script>
+   <script src="{{asset('theme/assets/js/ScrollToPlugin.min.js')}}"></script>
+   <script src="{{asset('theme/assets/js/SplitText.min.js')}}"></script>
+   <script src="{{asset('theme/assets/js/vanilla-tils.js')}}"></script>
+   <script src="{{asset('theme/assets/js/knob.min.js')}}"></script>
+   <script src="{{asset('theme/assets/js/nice-select.min.js')}}"></script>
+   <script src="{{asset('theme/assets/js/ajax-form.js')}}"></script>
+   <script src="{{asset('theme/assets/js/wow.min.js')}}"></script>
+   <script src="{{asset('theme/assets/js/sidebar.js')}}"></script>
+   <script src="{{asset('theme/assets/js/imagesloaded.pkgd.min.js')}}"></script>
+   <script src="{{asset('theme/assets/js/isotope.pkgd.min.js')}}"></script>
+   <script src="{{asset('theme/assets/js/fontawesome.min.js')}}"></script>
+   <script src="{{asset('theme/assets/js/ui-range-slider.js')}}"></script>
+   <script src="{{asset('theme/assets/js/main.js')}}"></script>
+</body>
+
+
 </html>

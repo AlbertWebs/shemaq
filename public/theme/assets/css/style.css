@@ -1,11 +1,11 @@
 @charset "UTF-8";
 /*-----------------------------------------------------------------------------------
 
-    Theme Name: Faime – Movie and Film Production HTML5 Template
-    Author: Bdevs
-    Support: nasir.chalo@gmail.com
-    Description: Faime – Movie and Film Production HTML5 Template. Faime is a fully responsive, clean, and customizable Template that comes with a collection of a Movie / Video Production.
-    Version: 1.0
+    Theme Name: Venshaq Holdings Limited – Movie and Film Production HTML5 & React Template
+    Author: Bdevs & Albro
+    Support: support@designekta.com
+    Description: Shemaq – Movie and Film Production HTML5 Template. Faime is a fully responsive, clean, and customizable Template that comes with a collection of a Movie / Video Production.
+    Version: 1.0.0
 
 -----------------------------------------------------------------------------------
 
@@ -1274,7 +1274,7 @@ li {
   --clr-border-4: #707070;
   --clr-border-5: #c2c2c2;
   --clr-border-6: #e5e5e5;
-  --clr-theme-1: #bca045;
+  --clr-theme-1: #ef5424;
   --clr-theme-2: #121212;
 }
 
@@ -15889,8 +15889,8 @@ blockquote > p {
   opacity: 0;
   visibility: hidden;
 }
-.bd-theme-color-btn.bd-color-settings-btn[data-color="#bca045"] {
-  background-color: #bca045;
+.bd-theme-color-btn.bd-color-settings-btn[data-color="#ef5424"] {
+  background-color: #ef5424;
 }
 .bd-theme-color-btn.bd-color-settings-btn[data-color="#cece00"] {
   background-color: #cece00;
