@@ -174,11 +174,23 @@
 
                    <div class="featured-sec-wrapper">
                       <div class="section-title">
-                         <span class="section-subtitle featured-sub-title title-anim">Featured
-                            PRODUCTION</span>
-                         <h2 class="section-main-title featured-sec-title title-anim">The featured
-                            production we
-                            created proudly</h2>
+                         <span class="section-subtitle featured-sub-title title-anim">Irresistible. Magnetic. Authentic</span>
+                         <h2 class="section-main-title featured-sec-title title-anim">
+                            Impactful video content
+                            for Broadcasting,
+                            Corporate, Education,
+                            Healthcare and more
+                         </h2>
+                         <br>
+                         <p class="title-anim" style="color:#ffffff">
+                            ShemaQ Productions serves clients from a wide range
+                            of sectors, creating shows that captivate audiences
+                            everywhere. From film and television to corporate and the
+                            public sector, we are adept at creating video content for
+                            various purposes, such as television shows, documentaries,
+                            marketing campaigns, and educational videos that are both
+                            engaging and captivating.
+                         </p>
                       </div>
                    </div>
 
@@ -200,142 +212,114 @@
           </div>
        </div>
        <div class="container">
-          <div class="featured-wrapper featured-slider-wrapper">
-             <div class="swiper-container featured-active slider-drag">
-                <div class="swiper-wrapper">
-                   <div class="swiper-slide">
-                      <div class="fm-single-featured">
-                         <div class="fm-featured-thumb">
-                            <a href="movie.html"> <img src="{{asset('theme/assets/img/new-slider/img-1.png')}}" alt="img not found"></a>
-                         </div>
-                         <div class="fm-featured-content">
-                            <div class="fm-featured-content-inner">
-                               <a href="portfolio-details.html">
-                                  <h4 class="fm-featured-title">Action Movie</h4>
-                               </a>
-                               <span class="fm-featured-meta">Release Date: 25 June 2022</span>
-                            </div>
-                            <div class="fm-video-play">
-                               <a class="fm-featured-video-wrapper popup-video"
-                                  href="https://assets.mixkit.co/videos/preview/mixkit-mercenary-looking-for-zombies-in-an-abandoned-building-41783-large.mp4"><i
-                                     class="fas fa-play"></i><span class="fm-featured-video-btn">Play
-                                     Trailer</span></a>
-                            </div>
-                         </div>
-                      </div>
-                   </div>
+        {{--  --}}
+        <div class="row ">
+            <div class="col-xl-4 col-lg-12">
+               <div class="services-sec-wrapper">
+                  <div class="section-title">
+                     <span class="section-subtitle title-anim" style="perspective: 400px;"><div style="display: block; text-align: start; position: relative; translate: none; rotate: none; scale: none; transform-origin: 57.5391px 11.1953px; transform: translate3d(0px, 0px, 0px); opacity: 1;">WHAT WE DO</div></span>
+                     <h2 class="section-main-title service-sec-title-2 services-clr title-anim" style="perspective: 400px;"><div style="display: block; text-align: start; position: relative; translate: none; rotate: none; scale: none; transform-origin: 210px 30px; transform: translate3d(0px, 0px, 0px); opacity: 1;">Our Sectors  </div><div style="display: block; text-align: start; position: relative; translate: none; rotate: none; scale: none; transform-origin: 210px 30px; transform: translate3d(0px, 0px, 0px); opacity: 1;"> Here </div></h2>
+                  </div>
 
-                   <div class="swiper-slide">
-                      <div class="fm-single-featured">
-                         <div class="fm-featured-thumb">
-                            <a href="movie.html"> <img src="{{asset('theme/assets/img/new-slider/img-2.png')}}" alt="img not found"></a>
-                         </div>
-                         <div class="fm-featured-content">
-                            <div class="fm-featured-content-inner">
-                               <a href="portfolio-details.html">
-                                  <h4 class="fm-featured-title">Comedy Movie</h4>
-                               </a>
-                               <span class="fm-featured-meta">Release Date: 30 Jan 2021</span>
-                            </div>
-                            <div class="fm-video-play">
-                               <a class="fm-featured-video-wrapper popup-video"
-                                  href="https://assets.mixkit.co/videos/preview/mixkit-mime-in-front-of-the-eiffel-tower-4772-large.mp4"><i
-                                     class="fas fa-play"></i><span class="fm-featured-video-btn">Play
-                                     Trailer</span></a>
-                            </div>
-                         </div>
-                      </div>
-                   </div>
 
-                   <div class="swiper-slide">
-                      <div class="fm-single-featured">
-                         <div class="fm-featured-thumb">
-                            <a href="movie.html"> <img src="{{asset('theme/assets/img/new-slider/img-3.png')}}" alt="img not found"></a>
-                         </div>
-                         <div class="fm-featured-content">
-                            <div class="fm-featured-content-inner">
-                               <a href="portfolio-details.html">
-                                  <h4 class="fm-featured-title">Thriller Movie</h4>
-                               </a>
-                               <span class="fm-featured-meta">Release Date: 25 FEb 2023</span>
-                            </div>
-                            <div class="fm-video-play">
-                               <a class="fm-featured-video-wrapper  popup-video"
-                                  href="https://assets.mixkit.co/videos/preview/mixkit-running-scared-down-a-hospital-hall-at-night-41764-large.mp4"><i
-                                     class="fas fa-play"></i><span class="fm-featured-video-btn">Play
-                                     Trailer</span></a>
-                            </div>
-                         </div>
-                      </div>
-                   </div>
+                  <div class="fm-services-btn btn_wrapper" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
+                     <a href="service.html" class="blog-rotate-btn about-icon-clr btn-item btn__item-move">
+                        <span>
+                           <i class="flaticon-right-arrow-1"></i>
+                        </span>
+                     </a>
+                  </div>
 
-                   <div class="swiper-slide">
-                      <div class="fm-single-featured">
-                         <div class="fm-featured-thumb">
-                            <a href="movie.html"> <img src="{{asset('theme/assets/img/new-slider/img-4.png')}}" alt="img not found"></a>
-                         </div>
-                         <div class="fm-featured-content">
-                            <div class="fm-featured-content-inner">
-                               <a href="portfolio-details.html">
-                                  <h4 class="fm-featured-title">Action Movie</h4>
-                               </a>
-                               <span class="fm-featured-meta">Release Date: 01 May 2022</span>
-                            </div>
-                            <div class="fm-video-play">
-                               <a class="fm-featured-video-wrapper popup-video"
-                                  href="https://assets.mixkit.co/videos/preview/mixkit-airplane-flying-in-a-red-cloudy-sky-7476-large.mp4"><i
-                                     class="fas fa-play"></i><span class="fm-featured-video-btn ">Play
-                                     Trailer</span></a>
-                            </div>
-                         </div>
-                      </div>
-                   </div>
 
-                   <div class="swiper-slide">
-                      <div class="fm-single-featured">
-                         <div class="fm-featured-thumb">
-                            <a href="movie.html"> <img src="{{asset('theme/assets/img/new-slider/img-5.png')}}" alt="img not found"></a>
-                         </div>
-                         <div class="fm-featured-content">
-                            <div class="fm-featured-content-inner">
-                               <a href="portfolio-details.html">
-                                  <h4 class="fm-featured-title">Superhero Movie</h4>
-                               </a>
-                               <span class="fm-featured-meta">Release Date: 10 Dec 2020</span>
-                            </div>
-                            <div class="fm-video-play">
-                               <a class="fm-featured-video-wrapper popup-video"
-                                  href="https://assets.mixkit.co/videos/preview/mixkit-large-tarantula-spider-in-red-light-45639-large.mp4"><i
-                                     class="fas fa-play"></i><span class="fm-featured-video-btn">Play
-                                     Trailer</span></a>
-                            </div>
-                         </div>
-                      </div>
-                   </div>
-                </div>
-             </div>
-             <div class="featured-slider-btn">
-                <div class="featured-slider-button-prev square-btn">
-                   <i class="fal fa-angle-left"></i>
-                </div>
-                <div class="featured-slider-button-next square-btn">
-                   <i class="fal fa-angle-right"></i>
-                </div>
-             </div>
-          </div>
-       </div>
-       <div class="featured-scroll-area">
-          <div class="swiper text-scroll">
-             <div class="swiper-wrapper featured-scroll-wrapper">
-                <div class="swiper-slide">
-                   <div class="featured-scroll-line">
-                      <h2 class="featured-scroll-line-heading">Irresistible.
-                        Magnetic.
-                        Authentic></h2>
-                   </div>
-                </div>
-             </div>
-          </div>
+               </div>
+            </div>
+
+            <div class="col-xl-8 col-lg-12">
+               <div class="fm-services-content-2 fade_bottom" style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">
+
+                  <div class="fm-single-services-content   mb-20">
+                     <span class="services-num">01</span>
+
+
+
+                     <h4 class="fm-service-title">
+                        <a class="fm-content-title service__title" href="service.html"> Broadcasting </a>
+                     </h4>
+
+
+
+
+                     <p class="fm-services-text-2 ">
+                        ShemaQ Productions
+                        has established itself as
+                        a leading player in the
+                        broadcast sector by
+                        fostering a strong brand
+                        identity and reputation
+                        for quality content.
+                     </p>
+
+
+
+                     <div class="fm-btn services-btn-2 ">
+                        <a href="service-details.html" class="fm-view-more explore-now">View More
+                           <span><i class="fa-regular fa-arrow-right"></i></span>
+                        </a>
+                     </div>
+
+
+
+                  </div>
+
+
+                  <div class="fm-single-services-content  mb-20">
+                     <span class="services-num">02</span>
+                     <h4 class="fm-service-title">
+
+                        <a class="fm-content-title " href="service.html"> Corporate Video Production </a>
+                     </h4>
+                     <p class="fm-services-text-2 ">
+                        Achieve what you want and more with B2B and B2C videos.
+                     </p>
+
+                     <div class="fm-btn services-btn-2 ">
+                        <a href="service-details.html" class="fm-view-more explore-now">View More
+                           <span><i class="fa-regular fa-arrow-right"></i></span>
+                        </a>
+
+                     </div>
+
+                  </div>
+
+                  <div class="fm-single-services-content  mb-20">
+                     <span class="services-num">03</span>
+                     <h4 class="fm-service-title">
+
+                        <a class="fm-content-title " href="service.html"> Education </a>
+                     </h4>
+                     <p class="fm-services-text-2 ">
+                        ShemaQ Productions
+                        works extensively in
+                        the education sector,
+                        creating content for
+                        universities, schools,
+                        online learning and
+                        informal education
+                        providers.
+                     </p>
+                     <div class="fm-btn services-btn-2 ">
+                        <a href="service-details.html" class="fm-view-more explore-now">View More
+                           <span><i class="fa-regular fa-arrow-right"></i></span>
+                        </a>
+
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+
+         </div>
+        {{--  --}}
        </div>
     </section>
     <!-- featured-area-end -->
@@ -346,7 +330,7 @@
           <div class="row justify-content-center">
              <div class="col-xl-6">
                 <div class="section-title text-center">
-                   <span class="section-subtitle title-anim">WHAT WE DO</span>
+                   <span class="section-subtitle title-anim">Home of Irresistible Family Entertainment</span>
                    <div>
                       <h2 class="section-main-title service-sec-title title-anim">Our BEST EXPERTISE</h2>
                    </div>
@@ -358,18 +342,20 @@
 
                 <div class="col-xxl-4 col-xl-6 col-lg-6 col-md-6">
                    <div class="fm-services-item img-hover p-relative mb-30 fade__anim-item">
-                      <div class="services-thumb" data-background="assets/img/services/img-1.jpg')}}">
+                      <div class="services-thumb" data-background="{{asset('theme/assets/img/services/img-1.jpg')}}">
                       </div>
                       <div class="fm-services-icon mb-27">
                          <img src="{{asset('theme/assets/img/new-icon/img-1.png')}}" alt="img not found">
                       </div>
                       <div class="fm-services-content">
-                         <h4 class="fm-services-title mb-10"><a href="services.html">Filming
-                               Service</a>
+                         <h4 class="fm-services-title mb-10"><a href="#">Film & Television Production</a>
                          </h4>
-                         <p class="fm-services-text">Playing field is rarely level when it is to making
-                            decisions
-                            people are amenable</p>
+                         <p class="fm-services-text">
+                            With a wealth of experience in the Film & TV industry, our
+                            production company is an adept creative firm that offers full-
+                            scale services ranging from concept creation to production
+                            management and equipment procurement.
+                         </p>
                          <div class="fm-btn services-btn">
                             <a href="service-details.html" class="fm-view-more">View More
                                <span><i class="fa-regular fa-arrow-right"></i></span>
@@ -382,18 +368,21 @@
 
                 <div class="col-xxl-4 col-xl-6 col-lg-6 col-md-6">
                    <div class="fm-services-item img-hover p-relative mb-30 fade__anim-item">
-                      <div class="services-thumb" data-background="assets/img/services/img-2.jpg')}}">
+                      <div class="services-thumb" data-background="{{asset('theme/assets/img/services/img-2.jpg')}}">
                       </div>
                       <div class="fm-services-icon mb-27">
                          <img src="{{asset('theme/assets/img/new-icon/img-2.png')}}" alt="img not found">
                       </div>
                       <div class="fm-services-content">
-                         <h4 class="fm-services-title mb-10"><a href="services.html">Animation</a>
+                         <h4 class="fm-services-title mb-10"><a href="#">Post-Production</a>
                          </h4>
-                         <p class="fm-services-text">This is why we need to take the chances we are given
-                            and
-                            run with
-                            them</p>
+                         <p class="fm-services-text">
+                            After the cameras stop rolling, it’s time for the next step
+                            of magic – post production. Possessing an illustrious
+                            background in post production and comprehensive insight
+                            of broadcast standards, ShemaQ Productions is equipped
+                            to assist..
+                         </p>
                          <div class="fm-btn services-btn">
                             <a href="service-details.html" class="fm-view-more">View More
                                <span><i class="fa-regular fa-arrow-right"></i></span>
@@ -406,90 +395,19 @@
 
                 <div class="col-xxl-4 col-xl-6 col-lg-6 col-md-6 ">
                    <div class="fm-services-item img-hover p-relative mb-30 fade__anim-item">
-                      <div class="services-thumb" data-background="assets/img/services/img-3.jpg')}}">
-                      </div>
-                      <div class="fm-services-icon mb-27">
-                         <img src="{{asset('theme/assets/img/new-icon/img-3.png')}}" alt="img not found">
-                      </div>
-                      <div class="fm-services-content">
-                         <h4 class="fm-services-title mb-10"><a href="services.html">BLOCK
-                               BUSTERS</a>
-                         </h4>
-                         <p class="fm-services-text">As well as this, most companies are not main
-                            structured to
-                            encourage</p>
-                         <div class="fm-btn services-btn">
-                            <a href="service-details.html" class="fm-view-more">View More
-                               <span><i class="fa-regular fa-arrow-right"></i></span>
-                            </a>
-
-                         </div>
-                      </div>
-                   </div>
-                </div>
-
-                <div class="col-xxl-4 col-xl-6 col-lg-6 col-md-6 ">
-                   <div class="fm-services-item img-hover p-relative mb-30 fade__anim-item">
-                      <div class="services-thumb" data-background="assets/img/services/img-4.jpg')}}">
-                      </div>
-                      <div class="fm-services-icon mb-27">
-                         <img src="{{asset('theme/assets/img/new-icon/img-4.png')}}" alt="img not found">
-                      </div>
-                      <div class="fm-services-content">
-                         <h4 class="fm-services-title mb-10"><a href="services.html">Direction</a>
-                         </h4>
-                         <p class="fm-services-text">We actually can be benchmarked differently for
-                            different
-                            positions.</p>
-                         <div class="fm-btn services-btn">
-                            <a href="service-details.html" class="fm-view-more">View More
-                               <span><i class="fa-regular fa-arrow-right"></i></span>
-                            </a>
-
-                         </div>
-                      </div>
-                   </div>
-                </div>
-
-                <div class="col-xxl-4 col-xl-6 col-lg-6 col-md-6">
-                   <div class="fm-services-item img-hover p-relative mb-30 fade__anim-item">
-                      <div class="services-thumb" data-background="assets/img/services/img-5.jpg')}}">
-                      </div>
-                      <div class="fm-services-icon mb-27">
-                         <img src="{{asset('theme/assets/img/new-icon/img-5.png')}}" alt="img not found">
-                      </div>
-                      <div class="fm-services-content">
-                         <h4 class="fm-services-title mb-10"><a href="services.html">FILM
-                               PRODUCTION
-                            </a></h4>
-                         <p class="fm-services-text">Cinema career will actually benefit a lot more from
-                            being a
-                            team
-                            player.</p>
-                         <div class="fm-btn services-btn">
-                            <a href="service-details.html" class="fm-view-more">View More
-                               <span><i class="fa-regular fa-arrow-right"></i></span>
-                            </a>
-
-                         </div>
-                      </div>
-                   </div>
-                </div>
-
-                <div class="col-xxl-4 col-xl-6 col-lg-6 col-md-6 ">
-                   <div class="fm-services-item img-hover p-relative mb-30 fade__anim-item">
-                      <div class="services-thumb" data-background="assets/img/services/img-6.jpg')}}">
+                      <div class="services-thumb" data-background="{{asset('theme/assets/img/services/img-6.jpg')}}">
                       </div>
                       <div class="fm-services-icon mb-27">
                          <img src="{{asset('theme/assets/img/new-icon/img-6.png')}}" alt="img not found">
                       </div>
                       <div class="fm-services-content">
-                         <h4 class="fm-services-title mb-10"><a href="services.html">Motion
-                               Graphic </a>
+                         <h4 class="fm-services-title mb-10"><a href="#">Distribution</a>
                          </h4>
-                         <p class="fm-services-text">If you’d like to plan out a more equitable and
-                            democratic
-                            approach.</p>
+                         <p class="fm-services-text">
+                            At ShemaQ Productions, we’ve established close ties with
+                            renowned networks and platforms, empowering us to reach advantageous distribution agreements for shows. We
+                            collaborate with the most talented minds in the industry to
+                         </p>
                          <div class="fm-btn services-btn">
                             <a href="service-details.html" class="fm-view-more">View More
                                <span><i class="fa-regular fa-arrow-right"></i></span>
@@ -505,6 +423,9 @@
     </section>
     <!-- services-area-end -->
 
+     <!-- services-area-start -->
+
+
     <!-- video-area-start -->
     <div class="video-area fm-video-style">
        <div class="fm-video-wrapper">
@@ -515,342 +436,6 @@
     </div>
     <!-- video-area-end -->
 
-    <!-- team-area-start -->
-    <section class="team-area pb-150 pt-140">
-       <div class="container">
-          <div class="row">
-             <div class="col-12">
-                <div class="team-sec-wrapper">
-                   <div class="section-title">
-                      <span class="section-subtitle featured-sub-title title-anim">awesome team</span>
-                      <h2 class="section-main-title team-sec-title title-anim">Creative team</h2>
-                   </div>
-                   <div class=" team-btn fade_bottom">
-                      <a class="team-details-btn" href="team-details.html">View All
-                         <span><i class=" fa-regular fa-arrow-right"></i></span>
-                      </a>
-                   </div>
-                </div>
-             </div>
-          </div>
-       </div>
-       <div class="container">
-          <div class="fm-team-border">
-             <div class="fm-team-wrapper">
-                <div class="fm-team-item p-relative">
-                   <div class="fm-team-thumb w-img">
-                      <a href="team-details.html">
-                         <img src="{{asset('theme/assets/img/team/img-1.jpg')}}" alt="img not found">
-                      </a>
-                   </div>
-                   <div class="fm-team-content">
-                      <h4 class="fm-team-title "><a href="team-details.html">CRISTINA ANGEL</a></h4>
-                      <span class="fm-team-designation ">VEDIO EDITOR</span>
-                   </div>
-                </div>
-                <div class="fm-team-item p-relative active">
-                   <div class="fm-team-thumb w-img">
-                      <a href="team-details.html">
-                         <img src="{{asset('theme/assets/img/team/img-2.jpg')}}" alt="img not found">
-                      </a>
-                   </div>
-                   <div class="fm-team-content">
-                      <h4 class="fm-team-title "><a href="team-details.html">IRA BANANA</a></h4>
-                      <span class="fm-team-designation">DIRECTOR</span>
-                   </div>
-                </div>
-                <div class="fm-team-item p-relative">
-                   <div class="fm-team-thumb w-img">
-                      <a href="team-details.html">
-                         <img src="{{asset('theme/assets/img/team/img-3.jpg')}}" alt="img not found">
-                      </a>
-                   </div>
-                   <div class="fm-team-content">
-                      <h4 class="fm-team-title "><a href="team-details.html">ANDRES MAN</a></h4>
-                      <span class="fm-team-designation ">CAMERAMAN</span>
-                   </div>
-                </div>
-                <div class="fm-team-item p-relative">
-                   <div class="fm-team-thumb w-img">
-                      <a href="team-details.html">
-                         <img src="{{asset('theme/assets/img/team/img-4.jpg')}}" alt="img not found">
-                      </a>
-                   </div>
-                   <div class="fm-team-content">
-                      <h4 class="fm-team-title "><a href="team-details.html">CHARLEY BOXES
-                         </a></h4>
-                      <span class="fm-team-designation ">VOICE MAKOVER</span>
-                   </div>
-                </div>
-             </div>
-          </div>
-       </div>
-    </section>
-    <!-- team-area-end -->
-
-    <!-- testimonial-area-start -->
-    <section class="testimonial-area pt-140 pb-150 p-relative">
-       <div class="testimonial-bg" data-background="assets/img/bg/testimonial.png')}}">
-       </div>
-       <div class="container">
-          <div class="row">
-             <div class="testimonial-sec-wrapper">
-
-                <div class="section-title testimonial-pos">
-                   <span class="section-subtitle featured-sub-title  title-anim">SATISFIED CLIENTS</span>
-                   <h2 class="section-main-title featured-sec-title  title-anim">customers feedback</h2>
-                </div>
-
-                <div class="testimonial-pagination circle-dot-pagination fade_bottom_2"></div>
-
-
-             </div>
-          </div>
-          <div class="fm-testimonial-slide-wrapper">
-             <div class="testimonial-active swiper-container slider-drag">
-                <div class="swiper-wrapper">
-                   <div class="swiper-slide">
-                      <div class="fm-testimonial-content">
-                         <div class="fm-testimonial-quote-icon">
-                            <span><svg id="quote_2_" data-name="quote (2)" xmlns="http://www.w3.org/2000/svg"
-                                  width="66.569" height="47.769" viewBox="0 0 66.569 47.769">
-                                  <path id="Path_8645" data-name="Path 8645"
-                                     d="M27.018,0H1.95A1.95,1.95,0,0,0,0,1.95V27.018a1.95,1.95,0,0,0,1.95,1.95H12.534V45.819a1.95,1.95,0,0,0,1.95,1.95h6.267a1.95,1.95,0,0,0,1.85-1.334l6.267-18.8a1.946,1.946,0,0,0,.1-.617V1.95A1.95,1.95,0,0,0,27.018,0Zm-1.95,26.7L19.345,43.868H16.434V27.018a1.95,1.95,0,0,0-1.95-1.95H3.9V3.9H25.068Zm0,0"
-                                     fill="#171717" />
-                                  <path id="Path_8646" data-name="Path 8646"
-                                     d="M316.217,0H291.149a1.95,1.95,0,0,0-1.95,1.95V27.018a1.95,1.95,0,0,0,1.95,1.95h10.584V45.819a1.95,1.95,0,0,0,1.95,1.95h6.267a1.951,1.951,0,0,0,1.85-1.334l6.267-18.8a1.959,1.959,0,0,0,.1-.617V1.95A1.95,1.95,0,0,0,316.217,0Zm-1.95,26.7-5.722,17.166h-2.911V27.018a1.95,1.95,0,0,0-1.95-1.95H293.1V3.9h21.167Zm0,0"
-                                     transform="translate(-251.598)" fill="#171717" />
-                               </svg>
-                            </span>
-                         </div>
-                         <div class="fm-testimonial-text">
-                            <p>I Have Worked With Shemaq The Past Couple Of Years And Have Purchased 10+
-                               Videos.
-                               My
-                               Company Is All Across The US And Working With Shemaq Was Easy.</p>
-                         </div>
-                         <div class="fm-testimonial-bottom-content">
-                            <div class="fm-testimonial-author">
-                               <span>
-                                  Adam quel
-                               </span>
-                            </div>
-                            <div class="fm-testimonial-brand-thumb">
-                               <img src="{{asset('theme/assets/img/brand/testi-brand.png')}}" alt="img not found">
-                            </div>
-                         </div>
-                      </div>
-                   </div>
-                   <div class="swiper-slide">
-                      <div class="fm-testimonial-content">
-                         <div class="fm-testimonial-quote-icon">
-                            <span><svg id="quote_3_" data-name="quote (3)" xmlns="http://www.w3.org/2000/svg"
-                                  width="66.569" height="47.769" viewBox="0 0 66.569 47.769">
-                                  <path id="Path_28645" data-name="Path 28645"
-                                     d="M27.018,0H1.95A1.95,1.95,0,0,0,0,1.95V27.018a1.95,1.95,0,0,0,1.95,1.95H12.534V45.819a1.95,1.95,0,0,0,1.95,1.95h6.267a1.95,1.95,0,0,0,1.85-1.334l6.267-18.8a1.946,1.946,0,0,0,.1-.617V1.95A1.95,1.95,0,0,0,27.018,0Zm-1.95,26.7L19.345,43.868H16.434V27.018a1.95,1.95,0,0,0-1.95-1.95H3.9V3.9H25.068Zm0,0"
-                                     fill="#171717" />
-                                  <path id="Path_28646" data-name="Path 28646"
-                                     d="M316.217,0H291.149a1.95,1.95,0,0,0-1.95,1.95V27.018a1.95,1.95,0,0,0,1.95,1.95h10.584V45.819a1.95,1.95,0,0,0,1.95,1.95h6.267a1.951,1.951,0,0,0,1.85-1.334l6.267-18.8a1.959,1.959,0,0,0,.1-.617V1.95A1.95,1.95,0,0,0,316.217,0Zm-1.95,26.7-5.722,17.166h-2.911V27.018a1.95,1.95,0,0,0-1.95-1.95H293.1V3.9h21.167Zm0,0"
-                                     transform="translate(-251.598)" fill="#171717" />
-                               </svg>
-                            </span>
-                         </div>
-                         <div class="fm-testimonial-text">
-                            <p>I Have Worked With Shemaq The Past Couple Of Years And Have Purchased 10+
-                               Videos.
-                               My
-                               Company Is All Across The US And Working With Shemaq Was Easy.</p>
-                         </div>
-                         <div class="fm-testimonial-bottom-content">
-                            <div class="fm-testimonial-author">
-                               <span>
-                                  Ander son
-                               </span>
-                            </div>
-                            <div class="fm-testimonial-brand-thumb">
-                               <img src="{{asset('theme/assets/img/brand/testi-brand.png')}}" alt="image not found">
-                            </div>
-                         </div>
-                      </div>
-                   </div>
-                   <div class="swiper-slide">
-                      <div class="fm-testimonial-content">
-                         <div class="fm-testimonial-quote-icon">
-                            <span><svg id="quote_4_" data-name="quote (4)" xmlns="http://www.w3.org/2000/svg"
-                                  width="66.569" height="47.769" viewBox="0 0 66.569 47.769">
-                                  <path id="Path_18645" data-name="Path 18645"
-                                     d="M27.018,0H1.95A1.95,1.95,0,0,0,0,1.95V27.018a1.95,1.95,0,0,0,1.95,1.95H12.534V45.819a1.95,1.95,0,0,0,1.95,1.95h6.267a1.95,1.95,0,0,0,1.85-1.334l6.267-18.8a1.946,1.946,0,0,0,.1-.617V1.95A1.95,1.95,0,0,0,27.018,0Zm-1.95,26.7L19.345,43.868H16.434V27.018a1.95,1.95,0,0,0-1.95-1.95H3.9V3.9H25.068Zm0,0"
-                                     fill="#171717" />
-                                  <path id="Path_18646" data-name="Path 18646"
-                                     d="M316.217,0H291.149a1.95,1.95,0,0,0-1.95,1.95V27.018a1.95,1.95,0,0,0,1.95,1.95h10.584V45.819a1.95,1.95,0,0,0,1.95,1.95h6.267a1.951,1.951,0,0,0,1.85-1.334l6.267-18.8a1.959,1.959,0,0,0,.1-.617V1.95A1.95,1.95,0,0,0,316.217,0Zm-1.95,26.7-5.722,17.166h-2.911V27.018a1.95,1.95,0,0,0-1.95-1.95H293.1V3.9h21.167Zm0,0"
-                                     transform="translate(-251.598)" fill="#171717" />
-                               </svg>
-                            </span>
-                         </div>
-                         <div class="fm-testimonial-text">
-                            <p>I Have Worked With Shemaq The Past Couple Of Years And Have Purchased 10+
-                               Videos.
-                               My
-                               Company Is All Across The US And Working With Shemaq Was Easy.</p>
-                         </div>
-                         <div class="fm-testimonial-bottom-content">
-                            <div class="fm-testimonial-author">
-                               <span>
-                                  Rowan san
-                               </span>
-                            </div>
-                            <div class="fm-testimonial-brand-thumb">
-                               <img src="{{asset('theme/assets/img/brand/testi-brand.png')}}" alt="img not found">
-                            </div>
-                         </div>
-                      </div>
-                   </div>
-                </div>
-             </div>
-          </div>
-       </div>
-    </section>
-    <!-- testimonial-area-end -->
-
-    <!-- blog-area-start -->
-    <section class="blog-area pt-140 pb-150 black-bg">
-       <div class="container">
-          <div class="row">
-             <div class="col-12">
-                <div class="blog-sec-wrapper">
-                   <div class="section-title">
-                      <span class="section-subtitle featured-sub-title title-anim">LATEST NEWS FROM
-                         Shemaq</span>
-                      <h2 class="section-main-title blog-sec-title title-anim">Shemaq latest BLOG</h2>
-                   </div>
-                   <div class=" blog-btn fade_bottom_3">
-                      <a class="blog-details-btn" href="blog-details.html">View All <span>
-                            <i class=" fa-regular fa-arrow-right"></i>
-                         </span>
-                      </a>
-                   </div>
-                </div>
-             </div>
-          </div>
-       </div>
-       <div class="container">
-          <div class="row">
-             <div class="fm-blog-wrapper">
-
-
-                <div class="fm-blog-inner blog__animation-wrapper ">
-
-                   <div class="fm-blog-thumb mb-40">
-                      <a href="blog-details.html"> <img src="{{asset('theme/assets/img/portfolio/blog-1.png')}}" alt="img not found"></a>
-                   </div>
-
-                   <div class="fm-blog-content blog__content ">
-                      <div class="fm-blog-content-text">
-                         <div class="fm-blog-meta">
-                            <span>3 Mar 2023</span>
-                         </div>
-                         <h4 class="fm-blog-title">
-                            <a href="blog.html">Anne Rice's Mayfair Witches' An
-                               Only
-                               Somewhat Spellbinding Gothic</a>
-                         </h4>
-                         <div class="fm-blog-text">
-                            <p class="">it was clear the network had its sights set on resurrecting more
-                               stories of a
-                               paranormal
-                               variety
-                               for the small-screen market. The epic rights package consisted of 18
-                               novels,</p>
-                         </div>
-                      </div>
-                   </div>
-
-                   <div class="fm-featured-btn btn_wrapper ">
-                      <a href="blog-details.html" class="blog-rotate-btn btn__item-move">
-                         <span>
-                            <i class="flaticon-right-arrow-1"></i>
-                         </span>
-                      </a>
-                   </div>
-
-                </div>
-
-
-                <div class="fm-blog-inner blog__animation-wrapper">
-
-                   <div class="fm-blog-thumb mb-40">
-                      <a href="blog-details.html"> <img src="{{asset('theme/assets/img/portfolio/blog-2.png')}}" alt="img not found"></a>
-                   </div>
-
-                   <div class="fm-blog-content blog__content">
-                      <div class="fm-blog-content-text">
-                         <div class="fm-blog-meta">
-                            <span>3 Mar 2023</span>
-                         </div>
-                         <h4 class="fm-blog-title">
-                            <a href="blog.html">Rowan can tolerate the undeserved
-                               criticism
-                               and dismissive attitude she</a>
-                         </h4>
-                         <div class="fm-blog-text">
-                            <p>it was clear the network had its sights set on resurrecting more
-                               stories of a
-                               paranormal
-                               variety
-                               for the small-screen market. The epic rights package consisted of 18
-                               novels,</p>
-                         </div>
-                      </div>
-                   </div>
-                   <div class="fm-featured-btn btn_wrapper">
-                      <a href="blog-details.html" class="blog-rotate-btn btn__item-move">
-                         <span>
-                            <i class="flaticon-right-arrow-1"></i>
-                         </span>
-                      </a>
-                   </div>
-                </div>
-
-
-                <div class="fm-blog-inner blog__animation-wrapper">
-
-                   <div class="fm-blog-thumb">
-                      <a href="blog-details.html"> <img src="{{asset('theme/assets/img/portfolio/blog-3.png')}}" alt="img not found"></a>
-                   </div>
-
-                   <div class="fm-blog-content blog__content">
-                      <div class="fm-blog-content-text">
-                         <div class="fm-blog-meta">
-                            <span>3 Mar 2023</span>
-                         </div>
-                         <h4 class="fm-blog-title">
-                            <a href="blog.html">Mayfair Witches, a somewhat more linear
-                               story
-                               in nature, quickly Reach</a>
-                         </h4>
-                         <div class="fm-blog-text">
-                            <p class="">it was clear the network had its sights set on resurrecting more
-                               stories of a
-                               paranormal
-                               variety
-                               for the small-screen market. The epic rights package consisted of 18
-                               novels,</p>
-                         </div>
-                      </div>
-                   </div>
-                   <div class="fm-featured-btn btn_wrapper">
-                      <a href="blog-details.html" class="blog-rotate-btn btn__item-move">
-                         <span>
-                            <i class="flaticon-right-arrow-1"></i>
-                         </span>
-                      </a>
-                   </div>
-                </div>
-             </div>
-          </div>
-       </div>
-    </section>
-    <!-- blog-area-end -->
 
     <!-- brand-area-start -->
     <div class="brand-area  pt-150 pb-150">
