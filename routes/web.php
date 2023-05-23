@@ -23,8 +23,9 @@ Route::get('/sectors', function () {
 
 
 Route::get('/sectors/{slung}', [App\Http\Controllers\HomeController::class, 'sector'])->name('sector');
-Route::get('/expertises/{slung}', [App\Http\Controllers\HomeController::class, 'expertises'])->name('expertises');
 
+Route::get('/expertises/{slung}', [App\Http\Controllers\HomeController::class, 'expertises'])->name('expertises');
+Route::get('/the-company', [App\Http\Controllers\HomeController::class, 'company'])->name('company');
 Route::get('/expertises', function () {
     return view('front.expertise');
 });

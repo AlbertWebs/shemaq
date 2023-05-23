@@ -23,7 +23,7 @@
                          </li>
 
                          <li class="active">
-                            <a href="{{url('/')}}">The Company</a>
+                            <a href="{{url('/')}}/the-company">The Company</a>
 
                          </li>
 

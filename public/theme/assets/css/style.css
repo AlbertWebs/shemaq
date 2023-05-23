@@ -15225,7 +15225,7 @@ blockquote > p {
 
 .fm-director-service-single p {
   color: var(--clr-body-text);
-  max-width: 72%;
+  /* max-width: 72%; */
 }
 
 .fm-director-service-btn {

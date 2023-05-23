@@ -17,6 +17,12 @@ class HomeController extends Controller
         return view('front.expertise', compact('Expertises'));
     }
 
+    public function company(){
+
+        return view('front.company');
+    }
+
+
 
 }
 
