@@ -21,17 +21,15 @@ Route::get('/sectors', function () {
     return view('front.sectors');
 });
 
-Route::get('/sectors/{slung}', function () {
-    return view('front.sectors');
-});
+
+Route::get('/sectors/{slung}', [App\Http\Controllers\HomeController::class, 'sector'])->name('sector');
+Route::get('/expertises/{slung}', [App\Http\Controllers\HomeController::class, 'expertises'])->name('expertises');
 
 Route::get('/expertises', function () {
     return view('front.expertise');
 });
 
-Route::get('/expertises/{slung}', function () {
-    return view('front.expertise');
-});
+
 
 Route::get('/contact-us', function () {
     return view('front.contact');
