@@ -42,7 +42,7 @@
                       <h1 class="fm-hero-main-title hero__title-6">
                          <span class="title-left">Shemaq</span>
                          <span class="spc-text title-right">
-                            Prod
+                            Productions
                         </span>
                       </h1>
                    </div>
@@ -86,7 +86,7 @@
                 <div class="section-title">
                    <h2 class="section-main-title about-main-title title-anim">On-Demand Video
                       Production Company</h2>
-                   <div class="section-text about-text">
+                   <div class="section-text about-text title-anim">
                       <p>
                             At ShemaQ Productions, we champion the extraordinary and are
                             proud of the creative excellence we represent. Our unparalleled
@@ -99,7 +99,7 @@
                 </div>
              </div>
              <div class="about-thumb-wrapper">
-                <div class="about-exp" style="max-width:350px; border-radius:10px">
+                <div class="about-exp title-anim" style="max-width:350px; border-radius:10px">
                    <h4 class="about-exp-num">"</h4>
                    <p class="about-exp-text" style="max-width:350px">
                         It doesn’t matter how great the idea is;
@@ -136,7 +136,7 @@
                        <div class="section-title">
                           <span class="section-subtitle featured-sub-title title-anim" style="perspective: 400px;"><div style="display: block; text-align: start; position: relative; translate: none; rotate: none; scale: none; transform-origin: 57.8672px 11.1953px; transform: translate3d(0px, 0px, 0px); opacity: 1;">Home of Irresistible Family Entertainment</div></span>
                           <h2 class="section-main-title about-sec-title title-anim" style="perspective: 400px;"><div style="display: block; text-align: start; position: relative; translate: none; rotate: none; scale: none; transform-origin: 381.25px 30px; transform: translate3d(0px, 0px, 0px); opacity: 1;"> We believe in the power of film to change lives, </div><div style="display: block; text-align: start; position: relative; translate: none; rotate: none; scale: none; transform-origin: 381.25px 30px; transform: translate3d(0px, 0px, 0px); opacity: 1;"> and we want to use that power to help you tell your story. </div></h2>
-                          <h4 class=" about-text-2 about-clr-2">
+                          <h4 class=" about-text-2 about-clr-2 title-anim">
                             Over time we endeavour to provide exceptional services of
                             the finest quality across our portfolio of services by creating
                             magnetic, award-winning content.

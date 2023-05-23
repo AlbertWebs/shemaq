@@ -35,31 +35,26 @@
                          </li>
 
                          <li class="has-dropdown"><a href="#">Sectors</a>
+                            <?php
+                               $Sectors = DB::table('sectors')->get();
+                            ?>
                             <ul class="submenu">
-                               <li><a href="#">Broadcasting</a></li>
-                               <li><a href="#">Corporate Video Production</a></li>
-                               <li><a href="#">Education</a></li>
-                               <li><a href="#">Public Sector & Non-Profits</a></li>
-                               <li><a href="#">Healthcare</a></li>
+                                @foreach ($Sectors as $sector)
+                                <li><a href="{{url('/')}}/sectors/{{$sector->slung}}">{{$sector->title}}</a></li>
+                                @endforeach
                             </ul>
                          </li>
 
                          <li class="has-dropdown"><a href="#">Expertise</a>
+                            <?php
+                               $Expertises = DB::table('expertises')->get();
+                            ?>
                             <ul class="submenu">
-                               <li><a href="#">Film & Television Production</a></li>
-                               <li><a href="#">Post-Production</a></li>
-                               <li><a href="#">Distribution</a></li>
-
-                               <li><a href="#">Public Sector & Non-Profits</a></li>
-                               <li><a href="#">Healthcare</a></li>
+                                @foreach ($Expertises as $expertises)
+                                <li><a href="{{url('/')}}/expertises/{{$expertises->slung}}">{{$expertises->title}}</a></li>
+                                @endforeach
                             </ul>
                          </li>
-
-
-
-
-
-
 
 
                          <li><a href="{{url('/')}}/contact-us">Contact Us</a>

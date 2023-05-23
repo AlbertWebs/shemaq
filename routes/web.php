@@ -17,6 +17,22 @@ Route::get('/', function () {
     return view('front.index');
 });
 
+Route::get('/sectors', function () {
+    return view('front.sectors');
+});
+
+Route::get('/sectors/{slung}', function () {
+    return view('front.sectors');
+});
+
+Route::get('/expertises', function () {
+    return view('front.expertise');
+});
+
+Route::get('/expertises/{slung}', function () {
+    return view('front.expertise');
+});
+
 Route::get('/contact-us', function () {
     return view('front.contact');
 });
