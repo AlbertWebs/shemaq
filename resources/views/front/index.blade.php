@@ -277,9 +277,6 @@
                            <span><i class="fa-regular fa-arrow-right"></i></span>
                         </a>
                      </div>
-
-
-
                   </div>
                   @endforeach
 

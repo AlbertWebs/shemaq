@@ -9,7 +9,8 @@
    <meta name="description" content="">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <!-- Place favicon.ico in the root directory -->
-   <link rel="shortcut icon" type="image/x-icon" href="{{asset('theme/assets/img/favicon.png')}}">
+   {{-- <link rel="shortcut icon" type="image/x-icon" href="{{asset('theme/assets/img/favicon.png')}}"> --}}
+   @include('front.favicon')
    <!-- CSS here -->
    <link rel="stylesheet" href="{{asset('theme/assets/css/preloader.css')}}">
    <link rel="stylesheet" href="{{asset('theme/assets/css/bootstrap.min.css')}}">
