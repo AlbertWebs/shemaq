@@ -29,8 +29,8 @@
 
                          <li class="has-dropdown"><a href="#">Shows</a>
                             <ul class="submenu">
-                               <li><a href="#">HelaCab</a></li>
-                               <li><a href="#">Banger</a></li>
+                               <li><a onclick="return alert('Coming Soon')" href="#">HelaCab</a></li>
+                               {{-- <li><a href="#">Banger</a></li> --}}
                             </ul>
                          </li>
 

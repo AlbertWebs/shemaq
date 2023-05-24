@@ -97,98 +97,9 @@
  <!-- about-area-end -->
 
 
-
-  <!-- history area start -->
-  <div class="history-area pb-120 blog-bg">
-    <div class="container">
-       <div class="row align-items-center">
-          <div class="col-xl-6 col-lg-6">
-             <div class="single-history mb-30">
-
-                <div class="section-title sec-sub-style mb-60">
-                   <span class="section-subtitle featured-sub-title title-anim sec-sub">How We Do It</span>
-                   <h2 class="section-main-title about-sec-title-2  title-anim">Rules to live by
-                      <span> History</span>
-                   </h2>
-                </div>
-
-                <ul class="history-link">
-                   <li>
-                      <div class="history-2-icon">
-                         <i class="far fa-mug-hot"></i>
-                         <div class="history-tag">
-                            <i class="far fa-check"></i>
-                         </div>
-                      </div>
-                      <div class="history-content">
-                         <h3 style="color:#ef5424; font-weight:800">Our Mission</h3>
-                         <p>
-                            ShemaQ Production’s foundation is built on the
-                            idea that everyone has a story to be shared,
-                            and our goal is to provide a positive atmosphere
-                            and media platform for our people and partners
-                            to thrive. We are dedicated to creating content
-                            that means something to our viewers, striving
-                            to reach not only local audiences, but as far as
-                            each message can be heard.
-                         </p>
-                      </div>
-                   </li>
-                   <li>
-                      <div class="history-2-icon">
-                         <i class="fa-solid fa-stars"></i>
-                         <div class="history-tag">
-                            <i class="far fa-check"></i>
-                         </div>
-                      </div>
-                      <div class="history-content">
-                         <h3 style="color:#ef5424; font-weight:800">Our Approach</h3>
-                         <p>
-                            As creative storytellers, we believe in giving
-                            all people a voice. We take a human-centred
-                            approach to every project, upholding a culture of
-                            collaboration internally and with our partners. We
-                            are committed to the continual development of a
-                            learning culture within ShemaQ so that we grow as
-                            a company and also grow as individuals.
-                         </p>
-                      </div>
-                   </li>
-
-                </ul>
-                <div class="history-btn fade_bottom_2">
-                   <a href="blog-details.html" class="hero-btn landing-border-clr hero-btn-clr">Our Expertise
-                      <span>
-                         <i class="fa-regular fa-arrow-right"></i>
-                      </span>
-                   </a>
-                </div>
-             </div>
-          </div>
-
-          <div class="col-xl-6 col-lg-6 ">
-             <div class="fm-history-thumb-wrapper">
-                <div class="history-thumb-1">
-                   <img src="{{asset('theme/assets/img/bg/pexels-pixabay-274937.jpg')}}" alt="">
-
-                </div>
-                <div class="history-thumb-2">
-                   <img src="{{asset('theme/assets/img/bg/pexels-kyle-loftus-3379934.jpg')}}" alt="">
-                </div>
-                <div class="history-thumb-3">
-                   <img src="{{asset('theme/assets/img/history/img-3.jpg')}}" alt="">
-                </div>
-             </div>
-          </div>
-       </div>
-    </div>
- </div>
-
- <!-- history area end -->
-
-  <!-- fm-director-service-area-start -->
-  <div class="fm-director-service-area soft-blackbg">
-    <div class="fm-director-service-bg" data-background="{{asset('theme/assets/img/services/director-service-bg.jpg')}}">
+ <!-- Core Values-->
+ <div class="fm-director-service-area soft-blackbg">
+    <div class="fm-director-service-bg" data-background="{{asset('theme/assets/img/services/pexels-orlando-allo-8770518.jpg')}}">
     </div>
     <div class="container">
        <div class="fm-director-service-wrapper">
@@ -304,6 +215,98 @@
        </div>
     </div>
  </div>
- <!-- fm-director-service-area-end -->
+ <!-- Core Values- -->
+
+
+  <!-- history area start -->
+  <div class="history-area pb-120 blog-bg">
+    <div class="container">
+       <div class="row align-items-center">
+          <div class="col-xl-6 col-lg-6">
+             <div class="single-history mb-30">
+
+                <div class="section-title sec-sub-style mb-60">
+                   <span class="section-subtitle featured-sub-title title-anim sec-sub">How We Do It</span>
+                   <h2 class="section-main-title about-sec-title-2  title-anim">Rules to live by
+                      <span> History</span>
+                   </h2>
+                </div>
+
+                <ul class="history-link">
+                   <li>
+                      <div class="history-2-icon">
+                         <i class="far fa-mug-hot"></i>
+                         <div class="history-tag">
+                            <i class="far fa-check"></i>
+                         </div>
+                      </div>
+                      <div class="history-content">
+                         <h3 style="color:#ef5424; font-weight:800">Our Mission</h3>
+                         <p>
+                            ShemaQ Production’s foundation is built on the
+                            idea that everyone has a story to be shared,
+                            and our goal is to provide a positive atmosphere
+                            and media platform for our people and partners
+                            to thrive. We are dedicated to creating content
+                            that means something to our viewers, striving
+                            to reach not only local audiences, but as far as
+                            each message can be heard.
+                         </p>
+                      </div>
+                   </li>
+                   <li>
+                      <div class="history-2-icon">
+                         <i class="fa-solid fa-stars"></i>
+                         <div class="history-tag">
+                            <i class="far fa-check"></i>
+                         </div>
+                      </div>
+                      <div class="history-content">
+                         <h3 style="color:#ef5424; font-weight:800">Our Approach</h3>
+                         <p>
+                            As creative storytellers, we believe in giving
+                            all people a voice. We take a human-centred
+                            approach to every project, upholding a culture of
+                            collaboration internally and with our partners. We
+                            are committed to the continual development of a
+                            learning culture within ShemaQ so that we grow as
+                            a company and also grow as individuals.
+                         </p>
+                      </div>
+                   </li>
+
+                </ul>
+                <div class="history-btn fade_bottom_2">
+                   <a href="{{url('/')}}/#expertise" class="hero-btn landing-border-clr hero-btn-clr">Our Expertise
+                      <span>
+                         <i class="fa-regular fa-arrow-right"></i>
+                      </span>
+                   </a>
+                </div>
+             </div>
+          </div>
+
+          <div class="col-xl-6 col-lg-6 ">
+             <div class="fm-history-thumb-wrapper">
+                <div class="history-thumb-1">
+                   <img src="{{asset('theme/assets/img/bg/pexels-pixabay-274937.jpg')}}" alt="">
+
+                </div>
+                <div class="history-thumb-2">
+                   <img src="{{asset('theme/assets/img/bg/pexels-kyle-loftus-3379934.jpg')}}" alt="">
+                </div>
+                <div class="history-thumb-3">
+                   <img src="{{asset('theme/assets/img/history/img-3.jpg')}}" alt="">
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+ </div>
+
+ <!-- history area end -->
+
+
+ @include('front.contact-section')
 
 @endsection

@@ -96,7 +96,18 @@
                             reality game-show production and other branded content.
                       </p>
                    </div>
+                    {{--  --}}
+                    <div class="history-btn fade_bottom_2" style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">
+                        <a href="{{url('/')}}/the-company" class="hero-btn landing-border-clr hero-btn-clr">Explore
+                        <span>
+                            <i class="fa-regular fa-arrow-right"></i>
+                        </span>
+                        </a>
+                    </div>
+                   {{--  --}}
+
                 </div>
+                <br>
              </div>
              <div class="about-thumb-wrapper">
                 <div class="about-exp title-anim" style="max-width:350px; border-radius:10px">
@@ -125,7 +136,7 @@
     </section>
     <!-- about-area-end -->
 
-    <section class="about-area fm-about-style">
+    <section class="about-area fm-about-style" >
         <div class="fm-about-bg-thumb" data-background="{{asset('theme/assets/img/bg/about-bg-2.png')}}" style="background-image: url('{{asset('theme/assets/img/bg/about-bg-2.png')}});">
         </div>
         <div class="container">
@@ -217,13 +228,16 @@
             <div class="col-xl-4 col-lg-12">
                <div class="services-sec-wrapper">
                   <div class="section-title">
-                     <span class="section-subtitle title-anim" style="perspective: 400px;"><div style="display: block; text-align: start; position: relative; translate: none; rotate: none; scale: none; transform-origin: 57.5391px 11.1953px; transform: translate3d(0px, 0px, 0px); opacity: 1;">WHAT WE DO</div></span>
+                     <span class="section-subtitle title-anim" style="perspective: 400px;"><div style="display: block; text-align: start; position: relative; translate: none; rotate: none; scale: none; transform-origin: 57.5391px 11.1953px; transform: translate3d(0px, 0px, 0px); opacity: 1;">Our ethos
+                        is simple;
+                        to Create
+                        Responsibly</div></span>
                      <h2 class="section-main-title service-sec-title-2 services-clr title-anim" style="perspective: 400px;"><div style="display: block; text-align: start; position: relative; translate: none; rotate: none; scale: none; transform-origin: 210px 30px; transform: translate3d(0px, 0px, 0px); opacity: 1;">Our Sectors  </div><div style="display: block; text-align: start; position: relative; translate: none; rotate: none; scale: none; transform-origin: 210px 30px; transform: translate3d(0px, 0px, 0px); opacity: 1;"> Here </div></h2>
                   </div>
 
 
                   <div class="fm-services-btn btn_wrapper" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
-                     <a href="service.html" class="blog-rotate-btn about-icon-clr btn-item btn__item-move">
+                     <a href="{{url('/')}}/sectors" class="blog-rotate-btn about-icon-clr btn-item btn__item-move">
                         <span>
                            <i class="flaticon-right-arrow-1"></i>
                         </span>
@@ -237,32 +251,29 @@
             <div class="col-xl-8 col-lg-12">
                <div class="fm-services-content-2 fade_bottom" style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">
 
+                <?php $Sector = DB::table('sectors')->limit('3')->get() ?>
+                  @foreach($Sector as $sector)
                   <div class="fm-single-services-content   mb-20">
-                     <span class="services-num">01</span>
+                     <span class="services-num">0{{$sector->id}}</span>
 
 
 
                      <h4 class="fm-service-title">
-                        <a class="fm-content-title service__title" href="service.html"> Broadcasting </a>
+                        <a class="fm-content-title service__title" href="{{url('/')}}/sectors/{{$sector->slung}}"> {{$sector->title}} </a>
                      </h4>
 
 
 
 
                      <p class="fm-services-text-2 ">
-                        ShemaQ Productions
-                        has established itself as
-                        a leading player in the
-                        broadcast sector by
-                        fostering a strong brand
-                        identity and reputation
-                        for quality content.
+                        {!!html_entity_decode($sector->meta)!!}
                      </p>
 
 
 
                      <div class="fm-btn services-btn-2 ">
-                        <a href="service-details.html" class="fm-view-more explore-now">View More
+                        <a href="{{url('/')}}/sectors/{{$sector->slung}}" class="fm-view-more explore-now">
+                            View More
                            <span><i class="fa-regular fa-arrow-right"></i></span>
                         </a>
                      </div>
@@ -270,50 +281,7 @@
 
 
                   </div>
-
-
-                  <div class="fm-single-services-content  mb-20">
-                     <span class="services-num">02</span>
-                     <h4 class="fm-service-title">
-
-                        <a class="fm-content-title " href="service.html"> Corporate Video Production </a>
-                     </h4>
-                     <p class="fm-services-text-2 ">
-                        Achieve what you want and more with B2B and B2C videos.
-                     </p>
-
-                     <div class="fm-btn services-btn-2 ">
-                        <a href="service-details.html" class="fm-view-more explore-now">View More
-                           <span><i class="fa-regular fa-arrow-right"></i></span>
-                        </a>
-
-                     </div>
-
-                  </div>
-
-                  <div class="fm-single-services-content  mb-20">
-                     <span class="services-num">03</span>
-                     <h4 class="fm-service-title">
-
-                        <a class="fm-content-title " href="service.html"> Education </a>
-                     </h4>
-                     <p class="fm-services-text-2 ">
-                        ShemaQ Productions
-                        works extensively in
-                        the education sector,
-                        creating content for
-                        universities, schools,
-                        online learning and
-                        informal education
-                        providers.
-                     </p>
-                     <div class="fm-btn services-btn-2 ">
-                        <a href="service-details.html" class="fm-view-more explore-now">View More
-                           <span><i class="fa-regular fa-arrow-right"></i></span>
-                        </a>
-
-                     </div>
-                  </div>
+                  @endforeach
 
                </div>
             </div>
@@ -325,7 +293,7 @@
     <!-- featured-area-end -->
 
     <!-- services-area-start -->
-    <section class="fm-services-area pt-140 pb-120">
+    <section class="fm-services-area pt-140 pb-120" id="expertise">
        <div class="container">
           <div class="row justify-content-center">
              <div class="col-xl-6">
@@ -340,76 +308,23 @@
           <div class=" fade_animation">
              <div class="row">
 
+                <?php $Expertises = DB::table('expertises')->limit('3')->get() ?>
+                @foreach($Expertises as $expertises)
                 <div class="col-xxl-4 col-xl-6 col-lg-6 col-md-6">
-                   <div class="fm-services-item img-hover p-relative mb-30 fade__anim-item">
-                      <div class="services-thumb" data-background="{{asset('theme/assets/img/services/img-1.jpg')}}">
-                      </div>
-                      <div class="fm-services-icon mb-27">
-                         <img src="{{asset('theme/assets/img/new-icon/img-1.png')}}" alt="img not found">
-                      </div>
-                      <div class="fm-services-content">
-                         <h4 class="fm-services-title mb-10"><a href="#">Film & Television Production</a>
-                         </h4>
-                         <p class="fm-services-text">
-                            With a wealth of experience in the Film & TV industry, our
-                            production company is an adept creative firm that offers full-
-                            scale services ranging from concept creation to production
-                            management and equipment procurement.
-                         </p>
-                         <div class="fm-btn services-btn">
-                            <a href="service-details.html" class="fm-view-more">View More
-                               <span><i class="fa-regular fa-arrow-right"></i></span>
-                            </a>
-
-                         </div>
-                      </div>
-                   </div>
-                </div>
-
-                <div class="col-xxl-4 col-xl-6 col-lg-6 col-md-6">
-                   <div class="fm-services-item img-hover p-relative mb-30 fade__anim-item">
-                      <div class="services-thumb" data-background="{{asset('theme/assets/img/services/img-2.jpg')}}">
-                      </div>
-                      <div class="fm-services-icon mb-27">
-                         <img src="{{asset('theme/assets/img/new-icon/img-2.png')}}" alt="img not found">
-                      </div>
-                      <div class="fm-services-content">
-                         <h4 class="fm-services-title mb-10"><a href="#">Post-Production</a>
-                         </h4>
-                         <p class="fm-services-text">
-                            After the cameras stop rolling, it’s time for the next step
-                            of magic – post production. Possessing an illustrious
-                            background in post production and comprehensive insight
-                            of broadcast standards, ShemaQ Productions is equipped
-                            to assist..
-                         </p>
-                         <div class="fm-btn services-btn">
-                            <a href="service-details.html" class="fm-view-more">View More
-                               <span><i class="fa-regular fa-arrow-right"></i></span>
-                            </a>
-
-                         </div>
-                      </div>
-                   </div>
-                </div>
-
-                <div class="col-xxl-4 col-xl-6 col-lg-6 col-md-6 ">
                    <div class="fm-services-item img-hover p-relative mb-30 fade__anim-item">
                       <div class="services-thumb" data-background="{{asset('theme/assets/img/services/img-6.jpg')}}">
                       </div>
                       <div class="fm-services-icon mb-27">
-                         <img src="{{asset('theme/assets/img/new-icon/img-6.png')}}" alt="img not found">
+                         <img src="{{asset('theme/assets/img/new-icon/')}}/{{$expertises->icon}}" alt="img not found">
                       </div>
                       <div class="fm-services-content">
-                         <h4 class="fm-services-title mb-10"><a href="#">Distribution</a>
+                         <h4 class="fm-services-title mb-10"><a href="{{url('/')}}/expertises/{{$expertises->slung}}">{{$expertises->title}}</a>
                          </h4>
                          <p class="fm-services-text">
-                            At ShemaQ Productions, we’ve established close ties with
-                            renowned networks and platforms, empowering us to reach advantageous distribution agreements for shows. We
-                            collaborate with the most talented minds in the industry to
+                            {!!html_entity_decode($expertises->meta)!!}
                          </p>
                          <div class="fm-btn services-btn">
-                            <a href="service-details.html" class="fm-view-more">View More
+                            <a href="{{url('/')}}/expertises/{{$expertises->slung}}" class="fm-view-more">View More
                                <span><i class="fa-regular fa-arrow-right"></i></span>
                             </a>
 
@@ -417,6 +332,7 @@
                       </div>
                    </div>
                 </div>
+                @endforeach
              </div>
           </div>
        </div>
@@ -427,18 +343,18 @@
 
 
     <!-- video-area-start -->
-    <div class="video-area fm-video-style">
+    {{-- <div class="video-area fm-video-style">
        <div class="fm-video-wrapper">
           <video loop="" muted="" autoplay="" playsinline="">
              <source src="{{asset('theme/assets/video/video-1.mp4')}}" type="video/mp4">
           </video>
        </div>
-    </div>
+    </div> --}}
     <!-- video-area-end -->
 
 
     <!-- brand-area-start -->
-    <div class="brand-area  pt-150 pb-150">
+    {{-- <div class="brand-area  pt-150 pb-150">
        <div class="container">
           <div class="row">
              <div class="col-lg-12">
@@ -465,9 +381,9 @@
              </div>
           </div>
        </div>
-    </div>
+    </div> --}}
     <!-- brand-area-end -->
-
+    @include('front.contact-section')
  </main>
 
 @endsection
