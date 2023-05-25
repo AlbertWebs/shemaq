@@ -15,19 +15,20 @@
        </div>
        <div class="container">
           <div class="row align-items-center">
-             <div class="col-xl-8 col-lg-8 ">
+             <div class="col-xl-10 col-lg-10 ">
 
                 <div class="fm-hero-video-wrapper hero__six_anim ">
 
-                   <a href="https://assets.mixkit.co/videos/preview/mixkit-crew-working-on-a-film-at-warehouse-22994-large.mp4"
+                   <a href="{{url('/')}}/uploads/videos/pexels-aghyad-najjar-4821746-1280x720-25fps.mp4"
                       class="popup-video hero-btn-hover">
 
-                      <div class="fm-hero-video-thumb ">
+
+                      {{-- <div class="fm-hero-video-thumb ">
                          <img src="{{asset('theme/assets/img/bg/hero-small.png')}}" alt="img not found">
-                      </div>
+                      </div> --}}
 
                       <div class="fm-hero-video fm-featured-video-btn">
-                         <div class="fm-hero-video-btn">HelaCab<br>
+                         <div class="fm-hero-video-btn">
                             Trailer<i class="fas fa-play">
 
                             </i></div>
@@ -49,10 +50,10 @@
                 </div>
 
              </div>
-             <div class="col-xl-4 col-lg-4 ">
-                <div class="fm-hero-thumb d-none d-sm-block hero__right-6">
+             <div class="col-xl-2 col-lg-2 ">
+                {{-- <div class="fm-hero-thumb d-none d-sm-block hero__right-6">
                    <img src="{{asset('theme/assets/img/portfolio/MV5BMTAzOTc3ODE1ODZeQTJeQWpwZ15BbWU3MDU1NjY3ODc_._V1_FMjpg_UX1000_-removebg-preview.png')}}" alt="img not found">
-                </div>
+                </div> --}}
                 <div class="d-none d-xl-none d-xxl-block">
                    <div class="fm-slider-main-social-abs">
                       <div class="fm-sliderfull-social">
