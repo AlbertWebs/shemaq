@@ -48,7 +48,7 @@
                     </div>
                     </div>
                     <div class="case-details-thumb">
-                    <img src="{{asset('theme/assets/img/testimonial/test1.jpg')}}" data-speed="auto" alt="">
+                    <img src="{{url('/')}}/uploads/images/{{$sector->image}}" data-speed="auto" alt="">
                     </div>
                     <h4 class="case-subtitle mb-25  p-text"><span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
