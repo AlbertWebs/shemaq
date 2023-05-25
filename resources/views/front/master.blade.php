@@ -20,7 +20,7 @@
     <meta property="og:url" content="{{url('/')}}" />
     <meta property="og:image" content="{{url('/')}}/theme/assets/img/logo/logo.png" />
     <meta name="twitter:title" content="Shemaq Productions Limited – Movie and Film Production" />
-    <meta name="twitter:site" content="@skylinePr" />
+    <meta name="twitter:site" content="@shemaq" />
     <meta name="google-site-verification" content="oybQVWDBZuuEWNr0zgCeOMqzZMX4nQit_qtAKk6OHBE" />
    {{--  --}}
    <!-- CSS here -->
