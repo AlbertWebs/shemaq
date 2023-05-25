@@ -60,10 +60,10 @@
              </li>
              <li class="d-flex align-items-center gap-2">
                 <div class="offcanvas-contact-icon">
-                   <a href="mailto:info@shemaq.co.ke"><i class="fal fa-envelope"></i></a>
+                   <a href="mailto:info@shemaq.com"><i class="fal fa-envelope"></i></a>
                 </div>
                 <div class="offcanvas-contact-text">
-                   <a href="mailto:info@shemaq.co.ke"><span class="__cf_email__" data-cfemail="f098959c9c9fb09691999d959d95949991de939f9d">info@shemaq.co.ke</span></a>
+                   <a href="mailto:info@shemaq.com"><span class="__cf_email__" data-cfemail="f098959c9c9fb09691999d959d95949991de939f9d">info@shemaq.com</span></a>
                 </div>
              </li>
           </ul>

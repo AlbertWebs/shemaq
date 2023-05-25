@@ -50,8 +50,8 @@
                                <span class="fm-contact-info-icon"><i class="fa-thin fa-envelope-open-text"></i></span>
                                <div class="fm-contact-info-text">
                                   <h5 class="fm-contact-info-text-label">Email</h5>
-                                  <p><a href="mailto:info@shemaq.co.ke"><span class="__cf_email__" data-cfemail="ccaaada5a1a98ca9b4ada1bca0a9e2afa3a1">info@shemaq.co.ke</span></a></p>
-                                  <p><a href="mailto:hello@shemaq.co.ke"><span class="__cf_email__" data-cfemail="791a180b1c1c0b391c01181409151c571f14">hello@shemaq.co.ke</span></a></p>
+                                  <p><a href="mailto:info@shemaq.com"><span class="__cf_email__" data-cfemail="ccaaada5a1a98ca9b4ada1bca0a9e2afa3a1">info@shemaq.com</span></a></p>
+                                  <p><a href="mailto:hello@shemaq.com"><span class="__cf_email__" data-cfemail="791a180b1c1c0b391c01181409151c571f14">hello@shemaq.com</span></a></p>
                                </div>
                             </div>
 

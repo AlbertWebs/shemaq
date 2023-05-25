@@ -5,8 +5,8 @@
          <div class="col-12">
             <div class="fm-contact-meta-wrap">
                <div class="fm-contact-mail">
-                  <a href="mailto:info@shemaq.co.ke">
-                     <h2 class="contact-mail p-text"><span class="__cf_email__" data-cfemail="fb939e979794bb9d9a92969e969e9f929ad5989496">info@shemaq.co.ke</span></h2>
+                  <a href="mailto:info@shemaq.com">
+                     <h2 class="contact-mail p-text"><span class="__cf_email__" data-cfemail="fb939e979794bb9d9a92969e969e9f929ad5989496">info@shemaq.com</span></h2>
                   </a>
                   <span class="fm-contact-hours">Response within 24hrs</span>
                </div>
