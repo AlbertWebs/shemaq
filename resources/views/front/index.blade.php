@@ -41,10 +41,11 @@
                    <div class="fm-hero-section-title">
                       <span class="fm-hero-subtitle ">AN award winning web series</span>
                       <h1 class="fm-hero-main-title hero__title-6">
-                         <span class="title-left">Shemaq</span>
-                         <span class="spc-text title-right">
+                         <span class="title-left">Shemaq</span><br>
+                         <span class="title-left">Productions</span>
+                         {{-- <span class="spc-text title-left">
                             Productions
-                        </span>
+                        </span> --}}
                       </h1>
                    </div>
                 </div>
