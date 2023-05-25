@@ -11,6 +11,18 @@
    <!-- Place favicon.ico in the root directory -->
    {{-- <link rel="shortcut icon" type="image/x-icon" href="{{asset('theme/assets/img/favicon.png')}}"> --}}
    @include('front.favicon')
+   {{--  --}}
+   <meta name="description" content="At ShemaQ Productions, we champion the extraordinary and are proud of the creative excellence we represent. Our unparalleled creativity and authentic storytelling are focused on creating, producing and distributing captivating and highly engaging digital content, with a strong focus on family entertainment excellence, reality game-show production and other branded content.">
+   <link rel="canonical" href="{{url('/')}}"/>
+   <meta property="og:description" content="At ShemaQ Productions, we champion the extraordinary and are proud of the creative excellence we represent. Our unparalleled creativity and authentic storytelling are focused on creating, producing and distributing captivating and highly engaging digital content, with a strong focus on family entertainment excellence, reality game-show production and other branded content." />
+    <meta property="og:title" content="Shemaq Productions Limited – Movie and Film Production" />
+    <meta property="og:type" content="articles" />
+    <meta property="og:url" content="{{url('/')}}" />
+    <meta property="og:image" content="{{url('/')}}/theme/assets/img/logo/logo.png" />
+    <meta name="twitter:title" content="Shemaq Productions Limited – Movie and Film Production" />
+    <meta name="twitter:site" content="@skylinePr" />
+    <meta name="google-site-verification" content="oybQVWDBZuuEWNr0zgCeOMqzZMX4nQit_qtAKk6OHBE" />
+   {{--  --}}
    <!-- CSS here -->
    <link rel="stylesheet" href="{{asset('theme/assets/css/preloader.css')}}">
    <link rel="stylesheet" href="{{asset('theme/assets/css/bootstrap.min.css')}}">
