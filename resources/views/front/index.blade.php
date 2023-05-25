@@ -150,13 +150,9 @@
                           <span class="section-subtitle featured-sub-title title-anim" style="perspective: 400px;"><div style="display: block; text-align: start; position: relative; translate: none; rotate: none; scale: none; transform-origin: 57.8672px 11.1953px; transform: translate3d(0px, 0px, 0px); opacity: 1;">Home of Irresistible Family Entertainment</div></span>
                           <h2 class="section-main-title about-sec-title title-anim" style="perspective: 400px;"><div style="display: block; text-align: start; position: relative; translate: none; rotate: none; scale: none; transform-origin: 381.25px 30px; transform: translate3d(0px, 0px, 0px); opacity: 1;"> We believe in the power of film to change lives, </div><div style="display: block; text-align: start; position: relative; translate: none; rotate: none; scale: none; transform-origin: 381.25px 30px; transform: translate3d(0px, 0px, 0px); opacity: 1;"> and we want to use that power to help you tell your story. </div></h2>
                           <h4 class=" about-text-2 about-clr-2 title-anim">
-                            Over time we endeavour to provide exceptional services of
-                            the finest quality across our portfolio of services by creating
-                            magnetic, award-winning content.
+                            Over time we endeavour to provide exceptional services of the finest quality across our portfolio of services by creating magnetic, award-winning content.
                             <br><br>
-                            We like to hear your views and reactions to our work,
-                            welcoming your honest and productive feedback that’s
-                            instrumental to our continued success.
+                            We like to hear your views and reactions to our work, welcoming your honest and productive feedback that’s instrumental to our continued success.
                           </h4>
                        </div>
                        <div class="fm-about-btn-2 btn_wrapper" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
@@ -189,20 +185,11 @@
                       <div class="section-title">
                          <span class="section-subtitle featured-sub-title title-anim">Irresistible. Magnetic. Authentic</span>
                          <h2 class="section-main-title featured-sec-title title-anim">
-                            Impactful video content
-                            for Broadcasting,
-                            Corporate, Education,
-                            Healthcare and more
+                            Impactful video content for Broadcasting, Corporate, Education, Healthcare and more
                          </h2>
                          <br>
                          <p class="title-anim" style="color:#ffffff">
-                            ShemaQ Productions serves clients from a wide range
-                            of sectors, creating shows that captivate audiences
-                            everywhere. From film and television to corporate and the
-                            public sector, we are adept at creating video content for
-                            various purposes, such as television shows, documentaries,
-                            marketing campaigns, and educational videos that are both
-                            engaging and captivating.
+                            ShemaQ Productions serves clients from a wide range of sectors, creating shows that captivate audiences everywhere. From film and television to corporate and the public sector, we are adept at creating video content for various purposes, such as television shows, documentaries, marketing campaigns, and educational videos that are both engaging and captivating.
                          </p>
                       </div>
                    </div>
