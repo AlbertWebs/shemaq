@@ -18,7 +18,7 @@
     <meta property="og:title" content="Shemaq Productions Limited – Movie and Film Production" />
     <meta property="og:type" content="articles" />
     <meta property="og:url" content="{{url('/')}}" />
-    <meta property="og:image" content="{{url('/')}}/theme/assets/img/logo/logo.png" />
+    <meta property="og:image" content="{{asset('favicon/android-icon-192x192.png')}}" />
     <meta name="twitter:title" content="Shemaq Productions Limited – Movie and Film Production" />
     <meta name="twitter:site" content="@shemaq" />
     <meta name="google-site-verification" content="oybQVWDBZuuEWNr0zgCeOMqzZMX4nQit_qtAKk6OHBE" />
