@@ -41,7 +41,7 @@
                                <span class="fm-contact-info-icon"><i class="fa-thin fa-phone"></i></span>
                                <div class="fm-contact-info-text">
                                   <h5 class="fm-contact-info-text-label">Phone</h5>
-                                  <p><span>Inquiry : </span><a href="tel:+88487-365-254">+254 704 440854</a></p>
+                                  <p><span>Inquiry : </span><a href="tel:+88487-365-254">+254 748349995</a></p>
                                   <p><span>Mobile : </span><a href="fax:5879-6985">+1 202 540 0134</a></p>
                                </div>
                             </div>

@@ -11,8 +11,8 @@
                   <span class="fm-contact-hours">Response within 24hrs</span>
                </div>
                <div class="fm-contact-call">
-                  <a href="tel:+254 704 440854">
-                     <h2 class=" contact-call p-text">+254 704 440854</h2>
+                  <a href="tel:+254 748349995">
+                     <h2 class=" contact-call p-text">+254 748349995</h2>
                   </a>
                   <span class="fm-contact-hours">Mon - Fri / 9 am - 5:30 pm</span>
 
