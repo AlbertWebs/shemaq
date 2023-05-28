@@ -52,9 +52,9 @@
 
              </div>
              <div class="col-xl-2 col-lg-2 ">
-                <div class="fm-hero-thumb d-none d-sm-block hero__right-6">
+                {{-- <div class="fm-hero-thumb d-none d-sm-block hero__right-6">
                    <img src="{{asset('theme/assets/img/portfolio/MV5BMTAzOTc3ODE1ODZeQTJeQWpwZ15BbWU3MDU1NjY3ODc_._V1_FMjpg_UX1000_-removebg-preview.png')}}" alt="img not found">
-                </div>
+                </div> --}}
                 <div class="d-none d-xl-none d-xxl-block">
                    <div class="fm-slider-main-social-abs">
                       <div class="fm-sliderfull-social">
