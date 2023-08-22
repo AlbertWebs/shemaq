@@ -51,7 +51,7 @@
                    <a href="tel:+254 704 440854"><i class="far fa-phone"></i></a>
                 </div>
                 <div class="offcanvas-contact-text">
-                   <a href="tel: +254 704 440854"> +254 704 440854</a>
+                   <a href="tel:+254 748349995">+254 748349995</a>
                 </div>
 
                 <div class="offcanvas-contact-text">
