@@ -27,12 +27,12 @@
                          <img src="{{asset('theme/assets/img/bg/hero-small.png')}}" alt="img not found">
                       </div> --}}
 
-                      <div class="fm-hero-video fm-featured-video-btn">
+                      {{-- <div class="fm-hero-video fm-featured-video-btn">
                          <div class="fm-hero-video-btn">
                             Trailer<i class="fas fa-play">
 
                             </i></div>
-                      </div>
+                      </div> --}}
 
                    </a>
                 </div>
