@@ -66,7 +66,7 @@
                 </div>
              </div>
              <div class="fm-header-right d-none d-xl-block">
-                <a href="contact.html" class="hero-btn">Let's Chat
+                <a target="new" href="https://forms.gle/G1pLcJidyfL4aeJD6" class="hero-btn">Audition Here
                    <span>
                       <i class="fa-regular fa-arrow-right"></i>
                    </span>
