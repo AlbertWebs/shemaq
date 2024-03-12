@@ -23,6 +23,9 @@ class HomeController extends Controller
     }
 
 
+    public function audition(){
+        return redirect()->away('https://forms.gle/G1pLcJidyfL4aeJD6');
+    }
 
 }
 

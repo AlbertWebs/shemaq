@@ -22,6 +22,8 @@ Route::get('/sectors', function () {
 });
 
 
+Route::get('/audition-here', [App\Http\Controllers\HomeController::class, 'audition'])->name('audition');
+
 Route::get('/sectors/{slung}', [App\Http\Controllers\HomeController::class, 'sector'])->name('sector');
 
 Route::get('/expertises/{slung}', [App\Http\Controllers\HomeController::class, 'expertises'])->name('expertises');

@@ -66,7 +66,7 @@
                 </div>
              </div>
              <div class="fm-header-right d-none d-xl-block">
-                <a target="new" href="https://forms.gle/G1pLcJidyfL4aeJD6" class="hero-btn">Audition Here
+                <a target="new" href="{{url('/')}}/audition-here" class="hero-btn">Audition Here
                    <span>
                       <i class="fa-regular fa-arrow-right"></i>
                    </span>
